@@ -1,0 +1,2607 @@
+INFO 2024-07-04 08:45:19,445 train.py:  94: Env set for rank: 0, dist_rank: 0
+INFO 2024-07-04 08:45:19,445 env.py:  50: BROWSER:	/home/Daniele/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh
+INFO 2024-07-04 08:45:19,445 env.py:  50: CLICOLOR:	1
+INFO 2024-07-04 08:45:19,445 env.py:  50: CLICOLOR_FORCE:	1
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_DEFAULT_ENV:	vissl
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_EXE:	/home/Daniele/miniforge3/bin/conda
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_MKL_INTERFACE_LAYER_BACKUP:	
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_PREFIX:	/home/Daniele/miniforge3/envs/vissl
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_PREFIX_1:	/home/Daniele/miniforge3
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_PROMPT_MODIFIER:	(vissl) 
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_PYTHON_EXE:	/home/Daniele/miniforge3/bin/python
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_ROOT:	/home/Daniele/miniforge3
+INFO 2024-07-04 08:45:19,446 env.py:  50: CONDA_SHLVL:	2
+INFO 2024-07-04 08:45:19,446 env.py:  50: CPL_VSIL_CURL_CHUNK_SIZE:	10485760
+INFO 2024-07-04 08:45:19,446 env.py:  50: ELECTRON_RUN_AS_NODE:	1
+INFO 2024-07-04 08:45:19,446 env.py:  50: FORCE_COLOR:	1
+INFO 2024-07-04 08:45:19,446 env.py:  50: GIT_PAGER:	cat
+INFO 2024-07-04 08:45:19,446 env.py:  50: HOME:	/home/Daniele
+INFO 2024-07-04 08:45:19,446 env.py:  50: HOST_EXTERNAL:	daniele-gpu-2
+INFO 2024-07-04 08:45:19,446 env.py:  50: HOST_INTERNAL:	container35656
+INFO 2024-07-04 08:45:19,446 env.py:  50: INSTANCE_HOSTNAME:	daniele-gpu-2
+INFO 2024-07-04 08:45:19,446 env.py:  50: IP_INTERNAL:	10.0.0.20
+INFO 2024-07-04 08:45:19,446 env.py:  50: IP_PUBLIC:	64.225.131.103
+INFO 2024-07-04 08:45:19,446 env.py:  50: LANG:	C.UTF-8
+INFO 2024-07-04 08:45:19,446 env.py:  50: LC_ALL:	C.UTF-8
+INFO 2024-07-04 08:45:19,447 env.py:  50: LD_LIBRARY_PATH:	/usr/local/cuda/compat:/usr/local/cuda/lib:/usr/local/cuda/compat:/usr/local/cuda/lib
+INFO 2024-07-04 08:45:19,447 env.py:  50: LESSCLOSE:	/usr/bin/lesspipe %s %s
+INFO 2024-07-04 08:45:19,447 env.py:  50: LESSOPEN:	| /usr/bin/lesspipe %s
+INFO 2024-07-04 08:45:19,447 env.py:  50: LOCAL_RANK:	0
+INFO 2024-07-04 08:45:19,447 env.py:  50: LOGNAME:	Daniele
+INFO 2024-07-04 08:45:19,447 env.py:  50: LS_COLORS:	
+INFO 2024-07-04 08:45:19,447 env.py:  50: MKL_INTERFACE_LAYER:	LP64,GNU
+INFO 2024-07-04 08:45:19,447 env.py:  50: MOTD_SHOWN:	pam
+INFO 2024-07-04 08:45:19,447 env.py:  50: MPLBACKEND:	module://matplotlib_inline.backend_inline
+INFO 2024-07-04 08:45:19,447 env.py:  50: PAGER:	cat
+INFO 2024-07-04 08:45:19,447 env.py:  50: PATH:	/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/miniforge3/condabin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+INFO 2024-07-04 08:45:19,447 env.py:  50: PWD:	/home/Daniele/codes/vissl/tutorials/vissl
+INFO 2024-07-04 08:45:19,447 env.py:  50: PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING:	1
+INFO 2024-07-04 08:45:19,447 env.py:  50: PYDEVD_USE_FRAME_EVAL:	NO
+INFO 2024-07-04 08:45:19,447 env.py:  50: PYTHONIOENCODING:	utf-8
+INFO 2024-07-04 08:45:19,447 env.py:  50: PYTHONUNBUFFERED:	1
+INFO 2024-07-04 08:45:19,447 env.py:  50: RANK:	0
+INFO 2024-07-04 08:45:19,447 env.py:  50: SHELL:	/bin/bash
+INFO 2024-07-04 08:45:19,448 env.py:  50: SHLVL:	2
+INFO 2024-07-04 08:45:19,448 env.py:  50: SSH_CLIENT:	193.190.253.145 51758 22
+INFO 2024-07-04 08:45:19,448 env.py:  50: SSH_CONNECTION:	193.190.253.145 51758 10.0.0.20 22
+INFO 2024-07-04 08:45:19,448 env.py:  50: TERM:	xterm-color
+INFO 2024-07-04 08:45:19,448 env.py:  50: USER:	Daniele
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_AGENT_FOLDER:	/home/Daniele/.vscode-server
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_AMD_ENTRYPOINT:	vs/workbench/api/node/extensionHostProcess
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_CWD:	/home/Daniele
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_HANDLES_SIGPIPE:	true
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_HANDLES_UNCAUGHT_ERRORS:	true
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_IPC_HOOK_CLI:	/run/user/1002/vscode-ipc-11763d5e-5683-49db-b581-a428c56daef0.sock
+INFO 2024-07-04 08:45:19,448 env.py:  50: VSCODE_NLS_CONFIG:	{"locale":"en","osLocale":"en","availableLanguages":{}}
+INFO 2024-07-04 08:45:19,448 env.py:  50: WORLD_SIZE:	1
+INFO 2024-07-04 08:45:19,448 env.py:  50: XDG_RUNTIME_DIR:	/run/user/1002
+INFO 2024-07-04 08:45:19,448 env.py:  50: XDG_SESSION_CLASS:	user
+INFO 2024-07-04 08:45:19,448 env.py:  50: XDG_SESSION_ID:	22
+INFO 2024-07-04 08:45:19,448 env.py:  50: XDG_SESSION_TYPE:	tty
+INFO 2024-07-04 08:45:19,448 env.py:  50: XML_CATALOG_FILES:	file:///home/Daniele/miniforge3/etc/xml/catalog file:///etc/xml/catalog
+INFO 2024-07-04 08:45:19,448 env.py:  50: _:	/home/Daniele/miniforge3/envs/vissl/bin/python3
+INFO 2024-07-04 08:45:19,448 env.py:  50: _CE_CONDA:	
+INFO 2024-07-04 08:45:19,448 env.py:  50: _CE_M:	
+INFO 2024-07-04 08:45:19,448 misc.py: 161: Set start method of multiprocessing to forkserver
+INFO 2024-07-04 08:45:19,449 train.py: 105: Setting seed....
+INFO 2024-07-04 08:45:19,449 misc.py: 173: MACHINE SEED: 0
+INFO 2024-07-04 08:45:19,450 hydra_config.py: 132: Training with config:
+INFO 2024-07-04 08:45:19,457 hydra_config.py: 141: {'CHECKPOINT': {'APPEND_DISTR_RUN_ID': False,
+                'AUTO_RESUME': True,
+                'BACKEND': 'disk',
+                'CHECKPOINT_FREQUENCY': 1,
+                'CHECKPOINT_ITER_FREQUENCY': -1,
+                'DIR': '/home/Daniele/codes/vissl/content/checkpoints',
+                'LATEST_CHECKPOINT_RESUME_FILE_NUM': 1,
+                'OVERWRITE_EXISTING': True,
+                'USE_SYMLINK_CHECKPOINT_FOR_RESUME': False},
+ 'CLUSTERFIT': {'CLUSTER_BACKEND': 'faiss',
+                'DATA_LIMIT': -1,
+                'DATA_LIMIT_SAMPLING': {'SEED': 0},
+                'FEATURES': {'DATASET_NAME': '',
+                             'DATA_PARTITION': 'TRAIN',
+                             'DIMENSIONALITY_REDUCTION': 0,
+                             'EXTRACT': False,
+                             'LAYER_NAME': '',
+                             'PATH': '.',
+                             'TEST_PARTITION': 'TEST'},
+                'NUM_CLUSTERS': 16000,
+                'NUM_ITER': 50,
+                'OUTPUT_DIR': '.'},
+ 'DATA': {'DDP_BUCKET_CAP_MB': 25,
+          'ENABLE_ASYNC_GPU_COPY': True,
+          'NUM_DATALOADER_WORKERS': 5,
+          'PIN_MEMORY': True,
+          'TEST': {'BASE_DATASET': 'generic_ssl',
+                   'BATCHSIZE_PER_REPLICA': 256,
+                   'COLLATE_FUNCTION': 'default_collate',
+                   'COLLATE_FUNCTION_PARAMS': {},
+                   'COPY_DESTINATION_DIR': '',
+                   'COPY_TO_LOCAL_DISK': False,
+                   'DATASET_NAMES': ['imagenet1k_folder'],
+                   'DATA_LIMIT': -1,
+                   'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                           'SEED': 0,
+                                           'SKIP_NUM_SAMPLES': 0},
+                   'DATA_PATHS': [],
+                   'DATA_SOURCES': [],
+                   'DEFAULT_GRAY_IMG_SIZE': 224,
+                   'DROP_LAST': False,
+                   'ENABLE_QUEUE_DATASET': False,
+                   'INPUT_KEY_NAMES': ['data'],
+                   'LABEL_PATHS': [],
+                   'LABEL_SOURCES': [],
+                   'LABEL_TYPE': 'sample_index',
+                   'MMAP_MODE': True,
+                   'NEW_IMG_PATH_PREFIX': '',
+                   'RANDOM_SYNTHETIC_IMAGES': False,
+                   'REMOVE_IMG_PATH_PREFIX': '',
+                   'TARGET_KEY_NAMES': ['label'],
+                   'TRANSFORMS': [],
+                   'USE_DEBUGGING_SAMPLER': False,
+                   'USE_STATEFUL_DISTRIBUTED_SAMPLER': False},
+          'TRAIN': {'BASE_DATASET': 'generic_ssl',
+                    'BATCHSIZE_PER_REPLICA': 32,
+                    'COLLATE_FUNCTION': 'simclr_collator',
+                    'COLLATE_FUNCTION_PARAMS': {},
+                    'COPY_DESTINATION_DIR': '/tmp/imagenet1k',
+                    'COPY_TO_LOCAL_DISK': False,
+                    'DATASET_NAMES': ['imagenet1k_filelist'],
+                    'DATA_LIMIT': 500,
+                    'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                            'SEED': 0,
+                                            'SKIP_NUM_SAMPLES': 0},
+                    'DATA_PATHS': [],
+                    'DATA_SOURCES': ['synthetic'],
+                    'DEFAULT_GRAY_IMG_SIZE': 224,
+                    'DROP_LAST': True,
+                    'ENABLE_QUEUE_DATASET': False,
+                    'INPUT_KEY_NAMES': ['data'],
+                    'LABEL_PATHS': [],
+                    'LABEL_SOURCES': [],
+                    'LABEL_TYPE': 'sample_index',
+                    'MMAP_MODE': True,
+                    'NEW_IMG_PATH_PREFIX': '',
+                    'RANDOM_SYNTHETIC_IMAGES': False,
+                    'REMOVE_IMG_PATH_PREFIX': '',
+                    'TARGET_KEY_NAMES': ['label'],
+                    'TRANSFORMS': [{'name': 'ImgReplicatePil', 'num_times': 2},
+                                   {'name': 'RandomResizedCrop', 'size': 224},
+                                   {'name': 'RandomHorizontalFlip', 'p': 0.5},
+                                   {'name': 'ImgPilColorDistortion',
+                                    'strength': 1.0},
+                                   {'name': 'ImgPilGaussianBlur',
+                                    'p': 0.5,
+                                    'radius_max': 2.0,
+                                    'radius_min': 0.1},
+                                   {'name': 'ToTensor'},
+                                   {'mean': [0.485, 0.456, 0.406],
+                                    'name': 'Normalize',
+                                    'std': [0.229, 0.224, 0.225]}],
+                    'USE_DEBUGGING_SAMPLER': False,
+                    'USE_STATEFUL_DISTRIBUTED_SAMPLER': False}},
+ 'DISTRIBUTED': {'BACKEND': 'nccl',
+                 'BROADCAST_BUFFERS': True,
+                 'INIT_METHOD': 'tcp',
+                 'MANUAL_GRADIENT_REDUCTION': False,
+                 'NCCL_DEBUG': False,
+                 'NCCL_SOCKET_NTHREADS': '',
+                 'NUM_NODES': 1,
+                 'NUM_PROC_PER_NODE': 1,
+                 'RUN_ID': 'auto'},
+ 'EXTRACT_FEATURES': {'CHUNK_THRESHOLD': 0, 'OUTPUT_DIR': ''},
+ 'HOOKS': {'CHECK_NAN': True,
+           'LOG_GPU_STATS': True,
+           'MEMORY_SUMMARY': {'DUMP_MEMORY_ON_EXCEPTION': False,
+                              'LOG_ITERATION_NUM': 0,
+                              'PRINT_MEMORY_SUMMARY': True},
+           'MODEL_COMPLEXITY': {'COMPUTE_COMPLEXITY': False,
+                                'INPUT_SHAPE': [3, 224, 224]},
+           'PERF_STATS': {'MONITOR_PERF_STATS': True,
+                          'PERF_STAT_FREQUENCY': 10,
+                          'ROLLING_BTIME_FREQ': 5},
+           'TENSORBOARD_SETUP': {'EXPERIMENT_LOG_DIR': 'tensorboard',
+                                 'FLUSH_EVERY_N_MIN': 5,
+                                 'LOG_DIR': '.',
+                                 'LOG_PARAMS': True,
+                                 'LOG_PARAMS_EVERY_N_ITERS': 310,
+                                 'LOG_PARAMS_GRADIENTS': True,
+                                 'USE_TENSORBOARD': True}},
+ 'IMG_RETRIEVAL': {'CROP_QUERY_ROI': False,
+                   'DATASET_PATH': '',
+                   'DEBUG_MODE': False,
+                   'EVAL_BINARY_PATH': '',
+                   'EVAL_DATASET_NAME': 'Paris',
+                   'FEATS_PROCESSING_TYPE': '',
+                   'GEM_POOL_POWER': 4.0,
+                   'IMG_SCALINGS': [1],
+                   'NORMALIZE_FEATURES': True,
+                   'NUM_DATABASE_SAMPLES': -1,
+                   'NUM_QUERY_SAMPLES': -1,
+                   'NUM_TRAINING_SAMPLES': -1,
+                   'N_PCA': 512,
+                   'RESIZE_IMG': 1024,
+                   'SAVE_FEATURES': False,
+                   'SAVE_RETRIEVAL_RANKINGS_SCORES': True,
+                   'SIMILARITY_MEASURE': 'cosine_similarity',
+                   'SPATIAL_LEVELS': 3,
+                   'TRAIN_DATASET_NAME': 'Oxford',
+                   'TRAIN_PCA_WHITENING': True,
+                   'USE_DISTRACTORS': False,
+                   'WHITEN_IMG_LIST': ''},
+ 'LOG_FREQUENCY': 1,
+ 'LOSS': {'CrossEntropyLoss': {'ignore_index': -1},
+          'barlow_twins_loss': {'embedding_dim': 8192,
+                                'lambda_': 0.0051,
+                                'scale_loss': 0.024},
+          'bce_logits_multiple_output_single_target': {'normalize_output': False,
+                                                       'reduction': 'none',
+                                                       'world_size': 1},
+          'cross_entropy_multiple_output_single_target': {'ignore_index': -1,
+                                                          'normalize_output': False,
+                                                          'reduction': 'mean',
+                                                          'temperature': 1.0,
+                                                          'weight': None},
+          'deepclusterv2_loss': {'BATCHSIZE_PER_REPLICA': 256,
+                                 'DROP_LAST': True,
+                                 'kmeans_iters': 10,
+                                 'memory_params': {'crops_for_mb': [0],
+                                                   'embedding_dim': 128},
+                                 'num_clusters': [3000, 3000, 3000],
+                                 'num_crops': 2,
+                                 'num_train_samples': -1,
+                                 'temperature': 0.1},
+          'dino_loss': {'crops_for_teacher': [0, 1],
+                        'ema_center': 0.9,
+                        'momentum': 0.996,
+                        'normalize_last_layer': True,
+                        'output_dim': 65536,
+                        'student_temp': 0.1,
+                        'teacher_temp_max': 0.07,
+                        'teacher_temp_min': 0.04,
+                        'teacher_temp_warmup_iters': 37500},
+          'moco_loss': {'embedding_dim': 128,
+                        'momentum': 0.999,
+                        'queue_size': 65536,
+                        'temperature': 0.2},
+          'multicrop_simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                               'embedding_dim': 128,
+                                                               'world_size': 64},
+                                             'num_crops': 2,
+                                             'temperature': 0.1},
+          'name': 'simclr_info_nce_loss',
+          'nce_loss_with_memory': {'loss_type': 'nce',
+                                   'loss_weights': [1.0],
+                                   'memory_params': {'embedding_dim': 128,
+                                                     'memory_size': -1,
+                                                     'momentum': 0.5,
+                                                     'norm_init': True,
+                                                     'update_mem_on_forward': True},
+                                   'negative_sampling_params': {'num_negatives': 16000,
+                                                                'type': 'random'},
+                                   'norm_constant': -1,
+                                   'norm_embedding': True,
+                                   'num_train_samples': -1,
+                                   'temperature': 0.07,
+                                   'update_mem_with_emb_index': -100},
+          'simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 64,
+                                                     'embedding_dim': 128,
+                                                     'world_size': 1},
+                                   'temperature': 0.1},
+          'swav_loss': {'crops_for_assign': [0, 1],
+                        'embedding_dim': 128,
+                        'epsilon': 0.05,
+                        'normalize_last_layer': True,
+                        'num_crops': 2,
+                        'num_iters': 3,
+                        'num_prototypes': [3000],
+                        'output_dir': '.',
+                        'queue': {'local_queue_length': 0,
+                                  'queue_length': 0,
+                                  'start_iter': 0},
+                        'temp_hard_assignment_iters': 0,
+                        'temperature': 0.1,
+                        'use_double_precision': False},
+          'swav_momentum_loss': {'crops_for_assign': [0, 1],
+                                 'embedding_dim': 128,
+                                 'epsilon': 0.05,
+                                 'momentum': 0.99,
+                                 'momentum_eval_mode_iter_start': 0,
+                                 'normalize_last_layer': True,
+                                 'num_crops': 2,
+                                 'num_iters': 3,
+                                 'num_prototypes': [3000],
+                                 'queue': {'local_queue_length': 0,
+                                           'queue_length': 0,
+                                           'start_iter': 0},
+                                 'temperature': 0.1,
+                                 'use_double_precision': False}},
+ 'MACHINE': {'DEVICE': 'gpu'},
+ 'METERS': {'accuracy_list_meter': {'meter_names': [],
+                                    'num_meters': 1,
+                                    'topk_values': [1]},
+            'enable_training_meter': True,
+            'mean_ap_list_meter': {'max_cpu_capacity': -1,
+                                   'meter_names': [],
+                                   'num_classes': 9605,
+                                   'num_meters': 1},
+            'model_output_mask': False,
+            'name': '',
+            'names': [],
+            'precision_at_k_list_meter': {'meter_names': [],
+                                          'num_meters': 1,
+                                          'topk_values': [1]},
+            'recall_at_k_list_meter': {'meter_names': [],
+                                       'num_meters': 1,
+                                       'topk_values': [1]}},
+ 'MODEL': {'ACTIVATION_CHECKPOINTING': {'NUM_ACTIVATION_CHECKPOINTING_SPLITS': 2,
+                                        'USE_ACTIVATION_CHECKPOINTING': False},
+           'AMP_PARAMS': {'AMP_ARGS': {'keep_batchnorm_fp32': True,
+                                       'loss_scale': 'dynamic',
+                                       'master_weights': True,
+                                       'opt_level': 'O3'},
+                          'AMP_TYPE': 'apex',
+                          'USE_AMP': False},
+           'BASE_MODEL_NAME': 'multi_input_output_model',
+           'CUDA_CACHE': {'CLEAR_CUDA_CACHE': False, 'CLEAR_FREQ': 100},
+           'FEATURE_EVAL_SETTINGS': {'EVAL_MODE_ON': False,
+                                     'EVAL_TRUNK_AND_HEAD': False,
+                                     'EXTRACT_TRUNK_FEATURES_ONLY': False,
+                                     'FREEZE_TRUNK_AND_HEAD': False,
+                                     'FREEZE_TRUNK_ONLY': False,
+                                     'LINEAR_EVAL_FEAT_POOL_OPS_MAP': [],
+                                     'SHOULD_FLATTEN_FEATS': True},
+           'FSDP_CONFIG': {'AUTO_WRAP_THRESHOLD': 0,
+                           'bucket_cap_mb': 0,
+                           'clear_autocast_cache': True,
+                           'compute_dtype': torch.float32,
+                           'flatten_parameters': True,
+                           'fp32_reduce_scatter': False,
+                           'mixed_precision': True,
+                           'verbose': True},
+           'GRAD_CLIP': {'MAX_NORM': 1, 'NORM_TYPE': 2, 'USE_GRAD_CLIP': False},
+           'HEAD': {'BATCHNORM_EPS': 1e-05,
+                    'BATCHNORM_MOMENTUM': 0.1,
+                    'PARAMS': [['mlp',
+                                {'dims': [2048, 2048],
+                                 'skip_last_layer_relu_bn': False,
+                                 'use_relu': True}],
+                               ['mlp', {'dims': [2048, 128]}]],
+                    'PARAMS_MULTIPLIER': 1.0},
+           'INPUT_TYPE': 'rgb',
+           'MULTI_INPUT_HEAD_MAPPING': [],
+           'NON_TRAINABLE_PARAMS': [],
+           'SHARDED_DDP_SETUP': {'USE_SDP': False, 'reduce_buffer_size': -1},
+           'SINGLE_PASS_EVERY_CROP': False,
+           'SYNC_BN_CONFIG': {'CONVERT_BN_TO_SYNC_BN': True,
+                              'GROUP_SIZE': -1,
+                              'SYNC_BN_TYPE': 'pytorch'},
+           'TEMP_FROZEN_PARAMS_ITER_MAP': [],
+           'TRUNK': {'CONVIT': {'CLASS_TOKEN_IN_LOCAL_LAYERS': False,
+                                'LOCALITY_DIM': 10,
+                                'LOCALITY_STRENGTH': 1.0,
+                                'N_GPSA_LAYERS': 10,
+                                'USE_LOCAL_INIT': True},
+                     'EFFICIENT_NETS': {},
+                     'NAME': 'resnet',
+                     'REGNET': {},
+                     'RESNETS': {'DEPTH': 50,
+                                 'GROUPNORM_GROUPS': 32,
+                                 'GROUPS': 1,
+                                 'LAYER4_STRIDE': 2,
+                                 'NORM': 'BatchNorm',
+                                 'STANDARDIZE_CONVOLUTIONS': False,
+                                 'WIDTH_MULTIPLIER': 1,
+                                 'WIDTH_PER_GROUP': 64,
+                                 'ZERO_INIT_RESIDUAL': False},
+                     'VISION_TRANSFORMERS': {'ATTENTION_DROPOUT_RATE': 0,
+                                             'CLASSIFIER': 'token',
+                                             'DROPOUT_RATE': 0,
+                                             'DROP_PATH_RATE': 0,
+                                             'HIDDEN_DIM': 768,
+                                             'IMAGE_SIZE': 224,
+                                             'MLP_DIM': 3072,
+                                             'NUM_HEADS': 12,
+                                             'NUM_LAYERS': 12,
+                                             'PATCH_SIZE': 16,
+                                             'QKV_BIAS': False,
+                                             'QK_SCALE': False,
+                                             'name': None},
+                     'XCIT': {'ATTENTION_DROPOUT_RATE': 0,
+                              'DROPOUT_RATE': 0,
+                              'DROP_PATH_RATE': 0.05,
+                              'ETA': 1,
+                              'HIDDEN_DIM': 384,
+                              'IMAGE_SIZE': 224,
+                              'NUM_HEADS': 8,
+                              'NUM_LAYERS': 12,
+                              'PATCH_SIZE': 16,
+                              'QKV_BIAS': True,
+                              'QK_SCALE': False,
+                              'TOKENS_NORM': True,
+                              'name': None}},
+           'WEIGHTS_INIT': {'APPEND_PREFIX': '',
+                            'PARAMS_FILE': '',
+                            'REMOVE_PREFIX': '',
+                            'SKIP_LAYERS': ['num_batches_tracked'],
+                            'STATE_DICT_KEY_NAME': 'classy_state_dict'},
+           '_MODEL_INIT_SEED': 0},
+ 'MONITORING': {'MONITOR_ACTIVATION_STATISTICS': 0},
+ 'MULTI_PROCESSING_METHOD': 'forkserver',
+ 'NEAREST_NEIGHBOR': {'L2_NORM_FEATS': False, 'SIGMA': 0.1, 'TOPK': 200},
+ 'OPTIMIZER': {'betas': [0.9, 0.999],
+               'construct_single_param_group_only': False,
+               'head_optimizer_params': {'use_different_lr': False,
+                                         'use_different_wd': False,
+                                         'weight_decay': 1e-06},
+               'larc_config': {'clip': False,
+                               'eps': 1e-08,
+                               'trust_coefficient': 0.001},
+               'momentum': 0.9,
+               'name': 'sgd',
+               'nesterov': False,
+               'non_regularized_parameters': [],
+               'num_epochs': 2,
+               'param_schedulers': {'lr': {'auto_lr_scaling': {'auto_scale': False,
+                                                               'base_lr_batch_size': 256,
+                                                               'base_value': 0.3,
+                                                               'scaling_type': 'linear'},
+                                           'end_value': 0.0,
+                                           'interval_scaling': ['rescaled',
+                                                                'rescaled'],
+                                           'lengths': [0.1, 0.9],
+                                           'milestones': [30, 60],
+                                           'name': 'composite',
+                                           'schedulers': [{'end_value': 4.8,
+                                                           'name': 'linear',
+                                                           'start_value': 0.6},
+                                                          {'end_value': 0.0048,
+                                                           'is_adaptive': True,
+                                                           'name': 'cosine_warm_restart',
+                                                           'restart_interval_length': 0.334,
+                                                           'start_value': 4.8,
+                                                           'wave_type': 'full'}],
+                                           'start_value': 0.1,
+                                           'update_interval': 'step',
+                                           'value': 0.1,
+                                           'values': [0.1, 0.01, 0.001]},
+                                    'lr_head': {'auto_lr_scaling': {'auto_scale': False,
+                                                                    'base_lr_batch_size': 256,
+                                                                    'base_value': 0.3,
+                                                                    'scaling_type': 'linear'},
+                                                'end_value': 0.0,
+                                                'interval_scaling': ['rescaled',
+                                                                     'rescaled'],
+                                                'lengths': [0.1, 0.9],
+                                                'milestones': [30, 60],
+                                                'name': 'composite',
+                                                'schedulers': [{'end_value': 4.8,
+                                                                'name': 'linear',
+                                                                'start_value': 0.6},
+                                                               {'end_value': 0.0048,
+                                                                'is_adaptive': True,
+                                                                'name': 'cosine_warm_restart',
+                                                                'restart_interval_length': 0.334,
+                                                                'start_value': 4.8,
+                                                                'wave_type': 'full'}],
+                                                'start_value': 0.1,
+                                                'update_interval': 'step',
+                                                'value': 0.1,
+                                                'values': [0.1, 0.01, 0.001]}},
+               'regularize_bias': True,
+               'regularize_bn': False,
+               'use_larc': True,
+               'use_zero': False,
+               'weight_decay': 1e-06},
+ 'PROFILING': {'MEMORY_PROFILING': {'TRACK_BY_LAYER_MEMORY': False},
+               'NUM_ITERATIONS': 10,
+               'OUTPUT_FOLDER': '.',
+               'PROFILED_RANKS': [0, 1],
+               'RUNTIME_PROFILING': {'LEGACY_PROFILER': False,
+                                     'PROFILE_CPU': True,
+                                     'PROFILE_GPU': True,
+                                     'USE_PROFILER': False},
+               'START_ITERATION': 0,
+               'STOP_TRAINING_AFTER_PROFILING': False,
+               'WARMUP_ITERATIONS': 0},
+ 'REPRODUCIBILITY': {'CUDDN_DETERMINISTIC': False},
+ 'SEED_VALUE': 0,
+ 'SLURM': {'ADDITIONAL_PARAMETERS': {},
+           'COMMENT': 'vissl job',
+           'CONSTRAINT': '',
+           'LOG_FOLDER': '.',
+           'MEM_GB': 250,
+           'NAME': 'vissl',
+           'NUM_CPU_PER_PROC': 8,
+           'PARTITION': '',
+           'PORT_ID': 40050,
+           'TIME_HOURS': 72,
+           'TIME_MINUTES': 0,
+           'USE_SLURM': False},
+ 'SVM': {'cls_list': [],
+         'costs': {'base': -1.0,
+                   'costs_list': [0.1, 0.01],
+                   'power_range': [4, 20]},
+         'cross_val_folds': 3,
+         'dual': True,
+         'force_retrain': False,
+         'loss': 'squared_hinge',
+         'low_shot': {'dataset_name': 'voc',
+                      'k_values': [1, 2, 4, 8, 16, 32, 64, 96],
+                      'sample_inds': [1, 2, 3, 4, 5]},
+         'max_iter': 2000,
+         'normalize': True,
+         'penalty': 'l2'},
+ 'TEST_EVERY_NUM_EPOCH': 1,
+ 'TEST_MODEL': False,
+ 'TEST_ONLY': False,
+ 'TRAINER': {'TASK_NAME': 'self_supervision_task',
+             'TRAIN_STEP_NAME': 'standard_train_step'},
+ 'VERBOSE': False}
+INFO 2024-07-04 08:45:19,985 train.py: 117: System config:
+-------------------  ----------------------------------------------------------------------------------------
+sys.platform         linux
+Python               3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35) [GCC 12.3.0]
+numpy                1.19.5
+Pillow               9.4.0
+vissl                0.1.6 @/home/Daniele/codes/vissl/tutorials/vissl/vissl
+GPU available        True
+GPU 0                NVIDIA RTXA6000-24Q
+CUDA_HOME            /usr/local/cuda
+torchvision          0.9.0+cu101 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torchvision
+hydra                1.0.7 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/hydra
+classy_vision        0.7.0.dev @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/classy_vision
+tensorboard          2.17.0
+apex                 0.1 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/apex
+PyTorch              1.8.0+cu101 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torch
+PyTorch debug build  False
+-------------------  ----------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.7.0 (Git Hash 7aed236906b1f7a05c0917e5257a1af05e9ff683)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 10.1
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70
+  - CuDNN 7.6.3
+  - Magma 2.5.2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=10.1, CUDNN_VERSION=7.6.3, CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/c++, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.8.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+CPU info:
+----------------------------------  -----------------------------------------------------------------------------------------------
+Architecture                        x86_64
+CPU op-mode(s)                      32-bit, 64-bit
+Address sizes                       40 bits physical, 48 bits virtual
+Byte Order                          Little Endian
+CPU(s)                              8
+On-line CPU(s) list                 0-7
+Vendor ID                           AuthenticAMD
+Model name                          AMD EPYC Processor
+CPU family                          23
+Model                               1
+Thread(s) per core                  2
+Core(s) per socket                  4
+Socket(s)                           1
+Stepping                            2
+BogoMIPS                            4599.99
+Virtualization                      AMD-V
+Hypervisor vendor                   KVM
+Virtualization type                 full
+L1d cache                           128 KiB (4 instances)
+L1i cache                           256 KiB (4 instances)
+L2 cache                            2 MiB (4 instances)
+L3 cache                            8 MiB (1 instance)
+NUMA node(s)                        1
+NUMA node0 CPU(s)                   0-7
+Vulnerability Gather data sampling  Not affected
+Vulnerability Itlb multihit         Not affected
+Vulnerability L1tf                  Not affected
+Vulnerability Mds                   Not affected
+Vulnerability Meltdown              Not affected
+Vulnerability Mmio stale data       Not affected
+Vulnerability Retbleed              Mitigation; untrained return thunk; SMT vulnerable
+Vulnerability Spec rstack overflow  Mitigation; safe RET, no microcode
+Vulnerability Spec store bypass     Vulnerable
+Vulnerability Spectre v1            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2            Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds                 Not affected
+Vulnerability Tsx async abort       Not affected
+----------------------------------  -----------------------------------------------------------------------------------------------
+INFO 2024-07-04 08:45:19,986 tensorboard.py:  49: Tensorboard dir: /home/Daniele/codes/vissl/content/checkpoints/tb_logs
+INFO 2024-07-04 08:45:19,988 tensorboard_hook.py:  90: Setting up SSL Tensorboard Hook...
+INFO 2024-07-04 08:45:19,988 tensorboard_hook.py: 102: Tensorboard config: log_params: True, log_params_freq: 310, log_params_gradients: True, log_activation_statistics: 0
+INFO 2024-07-04 08:45:19,988 trainer_main.py: 112: Using Distributed init method: tcp://localhost:39657, world_size: 1, rank: 0
+INFO 2024-07-04 08:45:19,992 distributed_c10d.py: 187: Added key: store_based_barrier_key:1 to store for rank: 0
+INFO 2024-07-04 08:45:19,992 trainer_main.py: 130: | initialized host daniele-gpu-2.de.dwd.expats.ewc as rank 0 (0)
+INFO 2024-07-04 08:45:21,822 train_task.py: 181: Not using Automatic Mixed Precision
+INFO 2024-07-04 08:45:21,822 train_task.py: 455: Building model....
+INFO 2024-07-04 08:45:21,823 resnext.py:  64: ResNeXT trunk, supports activation checkpointing. Deactivated
+INFO 2024-07-04 08:45:21,823 resnext.py:  87: Building model: ResNeXt50-1x64d-w1-BatchNorm2d
+INFO 2024-07-04 08:45:22,389 model_helpers.py: 177: Using SyncBN group size: 1
+INFO 2024-07-04 08:45:22,389 model_helpers.py: 192: Converting BN layers to PyTorch SyncBN
+INFO 2024-07-04 08:45:22,391 distributed_c10d.py: 187: Added key: store_based_barrier_key:2 to store for rank: 0
+INFO 2024-07-04 08:45:22,398 train_task.py: 656: Broadcast model BN buffers from primary on every forward pass
+INFO 2024-07-04 08:45:22,398 classification_task.py: 387: Synchronized Batch Normalization is disabled
+INFO 2024-07-04 08:45:22,445 optimizer_helper.py: 293: 
+Trainable params: 163, 
+Non-Trainable params: 0, 
+Trunk Regularized Parameters: 53, 
+Trunk Unregularized Parameters 106, 
+Head Regularized Parameters: 4, 
+Head Unregularized Parameters: 0 
+Remaining Regularized Parameters: 0 
+Remaining Unregularized Parameters: 0
+INFO 2024-07-04 08:45:22,445 img_replicate_pil.py:  52: ImgReplicatePil | Using num_times: 2
+INFO 2024-07-04 08:45:22,446 img_pil_color_distortion.py:  56: ImgPilColorDistortion | Using strength: 1.0
+INFO 2024-07-04 08:45:22,446 ssl_dataset.py: 156: Rank: 0 split: TRAIN Data files:
+['']
+INFO 2024-07-04 08:45:22,446 ssl_dataset.py: 159: Rank: 0 split: TRAIN Label files:
+[]
+INFO 2024-07-04 08:45:22,446 misc.py: 161: Set start method of multiprocessing to forkserver
+INFO 2024-07-04 08:45:22,446 __init__.py: 126: Created the Distributed Sampler....
+INFO 2024-07-04 08:45:22,446 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 500, 'total_size': 500, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 08:45:22,446 __init__.py: 215: Wrapping the dataloader to async device copies
+INFO 2024-07-04 08:45:22,446 train_task.py: 384: Building loss...
+INFO 2024-07-04 08:45:22,449 simclr_info_nce_loss.py:  91: Creating Info-NCE loss on Rank: 0
+INFO 2024-07-04 08:45:22,449 trainer_main.py: 268: Training 2 epochs
+INFO 2024-07-04 08:45:22,449 trainer_main.py: 269: One epoch = 15 iterations.
+INFO 2024-07-04 08:45:22,449 trainer_main.py: 270: Total 500 samples in one epoch
+INFO 2024-07-04 08:45:22,449 trainer_main.py: 276: Total 30 iterations for training
+INFO 2024-07-04 08:45:22,487 logger.py:  84: Thu Jul  4 08:45:22 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA RTXA6000-24Q            On  | 00000000:00:05.0 Off |                    0 |
+| N/A   N/A    P2              N/A /  N/A |    395MiB / 24576MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A    442965      C   python3                                     395MiB |
++---------------------------------------------------------------------------------------+
+
+INFO 2024-07-04 08:45:22,490 trainer_main.py: 173: Model is:
+ Classy <class 'vissl.models.base_ssl_model.BaseSSLMultiInputOutputModel'>:
+BaseSSLMultiInputOutputModel(
+  (_heads): ModuleDict()
+  (trunk): ResNeXt(
+    (_feature_blocks): ModuleDict(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv1_relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (4): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (5): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(<SUPPORTED_L4_STRIDE.two: 2>, <SUPPORTED_L4_STRIDE.two: 2>), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(<SUPPORTED_L4_STRIDE.two: 2>, <SUPPORTED_L4_STRIDE.two: 2>), bias=False)
+            (1): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (flatten): Flatten()
+    )
+  )
+  (heads): ModuleList(
+    (0): MLP(
+      (clf): Sequential(
+        (0): Linear(in_features=2048, out_features=2048, bias=True)
+        (1): ReLU(inplace=True)
+      )
+    )
+    (1): MLP(
+      (clf): Sequential(
+        (0): Linear(in_features=2048, out_features=128, bias=True)
+      )
+    )
+  )
+)
+INFO 2024-07-04 08:45:22,491 trainer_main.py: 174: Loss is: { 'info_average': { 'dist_rank': 0,
+  'name': 'SimclrInfoNCECriterion',
+  'num_negatives': 62,
+  'num_pos': 2,
+  'temperature': 0.1},
+  'name': 'SimclrInfoNCELoss'}
+INFO 2024-07-04 08:45:22,491 trainer_main.py: 175: Starting training....
+INFO 2024-07-04 08:45:22,491 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 500, 'total_size': 500, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 09:50:29,202 train.py:  94: Env set for rank: 0, dist_rank: 0
+INFO 2024-07-04 09:50:29,202 env.py:  50: BROWSER:	/home/Daniele/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh
+INFO 2024-07-04 09:50:29,202 env.py:  50: CLICOLOR:	1
+INFO 2024-07-04 09:50:29,203 env.py:  50: CLICOLOR_FORCE:	1
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_DEFAULT_ENV:	vissl
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_EXE:	/home/Daniele/miniforge3/bin/conda
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_MKL_INTERFACE_LAYER_BACKUP:	
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_PREFIX:	/home/Daniele/miniforge3/envs/vissl
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_PREFIX_1:	/home/Daniele/miniforge3
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_PROMPT_MODIFIER:	(vissl) 
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_PYTHON_EXE:	/home/Daniele/miniforge3/bin/python
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_ROOT:	/home/Daniele/miniforge3
+INFO 2024-07-04 09:50:29,203 env.py:  50: CONDA_SHLVL:	2
+INFO 2024-07-04 09:50:29,203 env.py:  50: CPL_VSIL_CURL_CHUNK_SIZE:	10485760
+INFO 2024-07-04 09:50:29,203 env.py:  50: ELECTRON_RUN_AS_NODE:	1
+INFO 2024-07-04 09:50:29,203 env.py:  50: FORCE_COLOR:	1
+INFO 2024-07-04 09:50:29,203 env.py:  50: GIT_PAGER:	cat
+INFO 2024-07-04 09:50:29,203 env.py:  50: HOME:	/home/Daniele
+INFO 2024-07-04 09:50:29,203 env.py:  50: HOST_EXTERNAL:	daniele-gpu-2
+INFO 2024-07-04 09:50:29,203 env.py:  50: HOST_INTERNAL:	container35656
+INFO 2024-07-04 09:50:29,203 env.py:  50: INSTANCE_HOSTNAME:	daniele-gpu-2
+INFO 2024-07-04 09:50:29,203 env.py:  50: IP_INTERNAL:	10.0.0.20
+INFO 2024-07-04 09:50:29,203 env.py:  50: IP_PUBLIC:	64.225.131.103
+INFO 2024-07-04 09:50:29,203 env.py:  50: LANG:	C.UTF-8
+INFO 2024-07-04 09:50:29,203 env.py:  50: LC_ALL:	C.UTF-8
+INFO 2024-07-04 09:50:29,203 env.py:  50: LD_LIBRARY_PATH:	/usr/local/cuda/compat:/usr/local/cuda/lib:/usr/local/cuda/compat:/usr/local/cuda/lib
+INFO 2024-07-04 09:50:29,203 env.py:  50: LESSCLOSE:	/usr/bin/lesspipe %s %s
+INFO 2024-07-04 09:50:29,204 env.py:  50: LESSOPEN:	| /usr/bin/lesspipe %s
+INFO 2024-07-04 09:50:29,204 env.py:  50: LOCAL_RANK:	0
+INFO 2024-07-04 09:50:29,204 env.py:  50: LOGNAME:	Daniele
+INFO 2024-07-04 09:50:29,204 env.py:  50: LS_COLORS:	
+INFO 2024-07-04 09:50:29,204 env.py:  50: MKL_INTERFACE_LAYER:	LP64,GNU
+INFO 2024-07-04 09:50:29,204 env.py:  50: MOTD_SHOWN:	pam
+INFO 2024-07-04 09:50:29,204 env.py:  50: MPLBACKEND:	module://matplotlib_inline.backend_inline
+INFO 2024-07-04 09:50:29,204 env.py:  50: PAGER:	cat
+INFO 2024-07-04 09:50:29,204 env.py:  50: PATH:	/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/miniforge3/condabin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+INFO 2024-07-04 09:50:29,204 env.py:  50: PWD:	/home/Daniele/codes/vissl
+INFO 2024-07-04 09:50:29,204 env.py:  50: PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING:	1
+INFO 2024-07-04 09:50:29,204 env.py:  50: PYDEVD_USE_FRAME_EVAL:	NO
+INFO 2024-07-04 09:50:29,204 env.py:  50: PYTHONIOENCODING:	utf-8
+INFO 2024-07-04 09:50:29,204 env.py:  50: PYTHONUNBUFFERED:	1
+INFO 2024-07-04 09:50:29,204 env.py:  50: RANK:	0
+INFO 2024-07-04 09:50:29,204 env.py:  50: SHELL:	/bin/bash
+INFO 2024-07-04 09:50:29,204 env.py:  50: SHLVL:	2
+INFO 2024-07-04 09:50:29,205 env.py:  50: SSH_CLIENT:	193.190.253.145 51758 22
+INFO 2024-07-04 09:50:29,205 env.py:  50: SSH_CONNECTION:	193.190.253.145 51758 10.0.0.20 22
+INFO 2024-07-04 09:50:29,205 env.py:  50: TERM:	xterm-color
+INFO 2024-07-04 09:50:29,205 env.py:  50: USER:	Daniele
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_AGENT_FOLDER:	/home/Daniele/.vscode-server
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_AMD_ENTRYPOINT:	vs/workbench/api/node/extensionHostProcess
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_CWD:	/home/Daniele
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_HANDLES_SIGPIPE:	true
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_HANDLES_UNCAUGHT_ERRORS:	true
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_IPC_HOOK_CLI:	/run/user/1002/vscode-ipc-11763d5e-5683-49db-b581-a428c56daef0.sock
+INFO 2024-07-04 09:50:29,205 env.py:  50: VSCODE_NLS_CONFIG:	{"locale":"en","osLocale":"en","availableLanguages":{}}
+INFO 2024-07-04 09:50:29,205 env.py:  50: WORLD_SIZE:	1
+INFO 2024-07-04 09:50:29,205 env.py:  50: XDG_RUNTIME_DIR:	/run/user/1002
+INFO 2024-07-04 09:50:29,205 env.py:  50: XDG_SESSION_CLASS:	user
+INFO 2024-07-04 09:50:29,205 env.py:  50: XDG_SESSION_ID:	22
+INFO 2024-07-04 09:50:29,205 env.py:  50: XDG_SESSION_TYPE:	tty
+INFO 2024-07-04 09:50:29,206 env.py:  50: XML_CATALOG_FILES:	file:///home/Daniele/miniforge3/etc/xml/catalog file:///etc/xml/catalog
+INFO 2024-07-04 09:50:29,206 env.py:  50: _:	/home/Daniele/miniforge3/envs/vissl/bin/python3
+INFO 2024-07-04 09:50:29,206 env.py:  50: _CE_CONDA:	
+INFO 2024-07-04 09:50:29,206 env.py:  50: _CE_M:	
+INFO 2024-07-04 09:50:29,206 misc.py: 161: Set start method of multiprocessing to fork
+INFO 2024-07-04 09:50:29,206 train.py: 105: Setting seed....
+INFO 2024-07-04 09:50:29,206 misc.py: 173: MACHINE SEED: 0
+INFO 2024-07-04 09:50:29,207 hydra_config.py: 132: Training with config:
+INFO 2024-07-04 09:50:29,214 hydra_config.py: 141: {'CHECKPOINT': {'APPEND_DISTR_RUN_ID': False,
+                'AUTO_RESUME': True,
+                'BACKEND': 'disk',
+                'CHECKPOINT_FREQUENCY': 1,
+                'CHECKPOINT_ITER_FREQUENCY': -1,
+                'DIR': 'content/checkpoints',
+                'LATEST_CHECKPOINT_RESUME_FILE_NUM': 1,
+                'OVERWRITE_EXISTING': False,
+                'USE_SYMLINK_CHECKPOINT_FOR_RESUME': False},
+ 'CLUSTERFIT': {'CLUSTER_BACKEND': 'faiss',
+                'DATA_LIMIT': -1,
+                'DATA_LIMIT_SAMPLING': {'SEED': 0},
+                'FEATURES': {'DATASET_NAME': '',
+                             'DATA_PARTITION': 'TRAIN',
+                             'DIMENSIONALITY_REDUCTION': 0,
+                             'EXTRACT': False,
+                             'LAYER_NAME': '',
+                             'PATH': '.',
+                             'TEST_PARTITION': 'TEST'},
+                'NUM_CLUSTERS': 16000,
+                'NUM_ITER': 50,
+                'OUTPUT_DIR': '.'},
+ 'DATA': {'DDP_BUCKET_CAP_MB': 25,
+          'ENABLE_ASYNC_GPU_COPY': True,
+          'NUM_DATALOADER_WORKERS': 5,
+          'PIN_MEMORY': True,
+          'TEST': {'BASE_DATASET': 'generic_ssl',
+                   'BATCHSIZE_PER_REPLICA': 2,
+                   'COLLATE_FUNCTION': 'default_collate',
+                   'COLLATE_FUNCTION_PARAMS': {},
+                   'COPY_DESTINATION_DIR': '',
+                   'COPY_TO_LOCAL_DISK': False,
+                   'DATASET_NAMES': ['dummy_data_folder'],
+                   'DATA_LIMIT': -1,
+                   'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                           'SEED': 0,
+                                           'SKIP_NUM_SAMPLES': 0},
+                   'DATA_PATHS': ['content/dummy_data/val'],
+                   'DATA_SOURCES': ['disk_folder'],
+                   'DEFAULT_GRAY_IMG_SIZE': 224,
+                   'DROP_LAST': False,
+                   'ENABLE_QUEUE_DATASET': False,
+                   'INPUT_KEY_NAMES': ['data'],
+                   'LABEL_PATHS': [],
+                   'LABEL_SOURCES': ['disk_folder'],
+                   'LABEL_TYPE': 'standard',
+                   'MMAP_MODE': True,
+                   'NEW_IMG_PATH_PREFIX': '',
+                   'RANDOM_SYNTHETIC_IMAGES': False,
+                   'REMOVE_IMG_PATH_PREFIX': '',
+                   'TARGET_KEY_NAMES': ['label'],
+                   'TRANSFORMS': [{'name': 'Resize', 'size': 256},
+                                  {'name': 'CenterCrop', 'size': 224},
+                                  {'name': 'ToTensor'},
+                                  {'mean': [0.485, 0.456, 0.406],
+                                   'name': 'Normalize',
+                                   'std': [0.229, 0.224, 0.225]}],
+                   'USE_DEBUGGING_SAMPLER': False,
+                   'USE_STATEFUL_DISTRIBUTED_SAMPLER': False},
+          'TRAIN': {'BASE_DATASET': 'generic_ssl',
+                    'BATCHSIZE_PER_REPLICA': 2,
+                    'COLLATE_FUNCTION': 'default_collate',
+                    'COLLATE_FUNCTION_PARAMS': {},
+                    'COPY_DESTINATION_DIR': '',
+                    'COPY_TO_LOCAL_DISK': False,
+                    'DATASET_NAMES': ['dummy_data_folder'],
+                    'DATA_LIMIT': -1,
+                    'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                            'SEED': 0,
+                                            'SKIP_NUM_SAMPLES': 0},
+                    'DATA_PATHS': ['content/dummy_data/train'],
+                    'DATA_SOURCES': ['disk_folder'],
+                    'DEFAULT_GRAY_IMG_SIZE': 224,
+                    'DROP_LAST': False,
+                    'ENABLE_QUEUE_DATASET': False,
+                    'INPUT_KEY_NAMES': ['data'],
+                    'LABEL_PATHS': [],
+                    'LABEL_SOURCES': ['disk_folder'],
+                    'LABEL_TYPE': 'standard',
+                    'MMAP_MODE': True,
+                    'NEW_IMG_PATH_PREFIX': '',
+                    'RANDOM_SYNTHETIC_IMAGES': False,
+                    'REMOVE_IMG_PATH_PREFIX': '',
+                    'TARGET_KEY_NAMES': ['label'],
+                    'TRANSFORMS': [{'name': 'RandomResizedCrop', 'size': 224},
+                                   {'name': 'RandomHorizontalFlip'},
+                                   {'brightness': 0.4,
+                                    'contrast': 0.4,
+                                    'hue': 0.4,
+                                    'name': 'ColorJitter',
+                                    'saturation': 0.4},
+                                   {'name': 'ToTensor'},
+                                   {'mean': [0.485, 0.456, 0.406],
+                                    'name': 'Normalize',
+                                    'std': [0.229, 0.224, 0.225]}],
+                    'USE_DEBUGGING_SAMPLER': False,
+                    'USE_STATEFUL_DISTRIBUTED_SAMPLER': False}},
+ 'DISTRIBUTED': {'BACKEND': 'nccl',
+                 'BROADCAST_BUFFERS': True,
+                 'INIT_METHOD': 'tcp',
+                 'MANUAL_GRADIENT_REDUCTION': False,
+                 'NCCL_DEBUG': False,
+                 'NCCL_SOCKET_NTHREADS': '',
+                 'NUM_NODES': 1,
+                 'NUM_PROC_PER_NODE': 1,
+                 'RUN_ID': 'auto'},
+ 'EXTRACT_FEATURES': {'CHUNK_THRESHOLD': 0, 'OUTPUT_DIR': ''},
+ 'HOOKS': {'CHECK_NAN': True,
+           'LOG_GPU_STATS': True,
+           'MEMORY_SUMMARY': {'DUMP_MEMORY_ON_EXCEPTION': False,
+                              'LOG_ITERATION_NUM': 0,
+                              'PRINT_MEMORY_SUMMARY': False},
+           'MODEL_COMPLEXITY': {'COMPUTE_COMPLEXITY': False,
+                                'INPUT_SHAPE': [3, 224, 224]},
+           'PERF_STATS': {'MONITOR_PERF_STATS': False,
+                          'PERF_STAT_FREQUENCY': -1,
+                          'ROLLING_BTIME_FREQ': -1},
+           'TENSORBOARD_SETUP': {'EXPERIMENT_LOG_DIR': 'tensorboard',
+                                 'FLUSH_EVERY_N_MIN': 5,
+                                 'LOG_DIR': '.',
+                                 'LOG_PARAMS': True,
+                                 'LOG_PARAMS_EVERY_N_ITERS': 310,
+                                 'LOG_PARAMS_GRADIENTS': True,
+                                 'USE_TENSORBOARD': True}},
+ 'IMG_RETRIEVAL': {'CROP_QUERY_ROI': False,
+                   'DATASET_PATH': '',
+                   'DEBUG_MODE': False,
+                   'EVAL_BINARY_PATH': '',
+                   'EVAL_DATASET_NAME': 'Paris',
+                   'FEATS_PROCESSING_TYPE': '',
+                   'GEM_POOL_POWER': 4.0,
+                   'IMG_SCALINGS': [1],
+                   'NORMALIZE_FEATURES': True,
+                   'NUM_DATABASE_SAMPLES': -1,
+                   'NUM_QUERY_SAMPLES': -1,
+                   'NUM_TRAINING_SAMPLES': -1,
+                   'N_PCA': 512,
+                   'RESIZE_IMG': 1024,
+                   'SAVE_FEATURES': False,
+                   'SAVE_RETRIEVAL_RANKINGS_SCORES': True,
+                   'SIMILARITY_MEASURE': 'cosine_similarity',
+                   'SPATIAL_LEVELS': 3,
+                   'TRAIN_DATASET_NAME': 'Oxford',
+                   'TRAIN_PCA_WHITENING': True,
+                   'USE_DISTRACTORS': False,
+                   'WHITEN_IMG_LIST': ''},
+ 'LOG_FREQUENCY': 100,
+ 'LOSS': {'CrossEntropyLoss': {'ignore_index': -1},
+          'barlow_twins_loss': {'embedding_dim': 8192,
+                                'lambda_': 0.0051,
+                                'scale_loss': 0.024},
+          'bce_logits_multiple_output_single_target': {'normalize_output': False,
+                                                       'reduction': 'none',
+                                                       'world_size': 1},
+          'cross_entropy_multiple_output_single_target': {'ignore_index': -1,
+                                                          'normalize_output': False,
+                                                          'reduction': 'mean',
+                                                          'temperature': 1.0,
+                                                          'weight': None},
+          'deepclusterv2_loss': {'BATCHSIZE_PER_REPLICA': 256,
+                                 'DROP_LAST': True,
+                                 'kmeans_iters': 10,
+                                 'memory_params': {'crops_for_mb': [0],
+                                                   'embedding_dim': 128},
+                                 'num_clusters': [3000, 3000, 3000],
+                                 'num_crops': 2,
+                                 'num_train_samples': -1,
+                                 'temperature': 0.1},
+          'dino_loss': {'crops_for_teacher': [0, 1],
+                        'ema_center': 0.9,
+                        'momentum': 0.996,
+                        'normalize_last_layer': True,
+                        'output_dim': 65536,
+                        'student_temp': 0.1,
+                        'teacher_temp_max': 0.07,
+                        'teacher_temp_min': 0.04,
+                        'teacher_temp_warmup_iters': 37500},
+          'moco_loss': {'embedding_dim': 128,
+                        'momentum': 0.999,
+                        'queue_size': 65536,
+                        'temperature': 0.2},
+          'multicrop_simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                               'embedding_dim': 128,
+                                                               'world_size': 64},
+                                             'num_crops': 2,
+                                             'temperature': 0.1},
+          'name': 'cross_entropy_multiple_output_single_target',
+          'nce_loss_with_memory': {'loss_type': 'nce',
+                                   'loss_weights': [1.0],
+                                   'memory_params': {'embedding_dim': 128,
+                                                     'memory_size': -1,
+                                                     'momentum': 0.5,
+                                                     'norm_init': True,
+                                                     'update_mem_on_forward': True},
+                                   'negative_sampling_params': {'num_negatives': 16000,
+                                                                'type': 'random'},
+                                   'norm_constant': -1,
+                                   'norm_embedding': True,
+                                   'num_train_samples': -1,
+                                   'temperature': 0.07,
+                                   'update_mem_with_emb_index': -100},
+          'simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                     'embedding_dim': 128,
+                                                     'world_size': 64},
+                                   'temperature': 0.1},
+          'swav_loss': {'crops_for_assign': [0, 1],
+                        'embedding_dim': 128,
+                        'epsilon': 0.05,
+                        'normalize_last_layer': True,
+                        'num_crops': 2,
+                        'num_iters': 3,
+                        'num_prototypes': [3000],
+                        'output_dir': '.',
+                        'queue': {'local_queue_length': 0,
+                                  'queue_length': 0,
+                                  'start_iter': 0},
+                        'temp_hard_assignment_iters': 0,
+                        'temperature': 0.1,
+                        'use_double_precision': False},
+          'swav_momentum_loss': {'crops_for_assign': [0, 1],
+                                 'embedding_dim': 128,
+                                 'epsilon': 0.05,
+                                 'momentum': 0.99,
+                                 'momentum_eval_mode_iter_start': 0,
+                                 'normalize_last_layer': True,
+                                 'num_crops': 2,
+                                 'num_iters': 3,
+                                 'num_prototypes': [3000],
+                                 'queue': {'local_queue_length': 0,
+                                           'queue_length': 0,
+                                           'start_iter': 0},
+                                 'temperature': 0.1,
+                                 'use_double_precision': False}},
+ 'MACHINE': {'DEVICE': 'gpu'},
+ 'METERS': {'accuracy_list_meter': {'meter_names': [],
+                                    'num_meters': 1,
+                                    'topk_values': [1, 5]},
+            'enable_training_meter': True,
+            'mean_ap_list_meter': {'max_cpu_capacity': -1,
+                                   'meter_names': [],
+                                   'num_classes': 9605,
+                                   'num_meters': 1},
+            'model_output_mask': False,
+            'name': 'accuracy_list_meter',
+            'names': ['accuracy_list_meter'],
+            'precision_at_k_list_meter': {'meter_names': [],
+                                          'num_meters': 1,
+                                          'topk_values': [1]},
+            'recall_at_k_list_meter': {'meter_names': [],
+                                       'num_meters': 1,
+                                       'topk_values': [1]}},
+ 'MODEL': {'ACTIVATION_CHECKPOINTING': {'NUM_ACTIVATION_CHECKPOINTING_SPLITS': 2,
+                                        'USE_ACTIVATION_CHECKPOINTING': False},
+           'AMP_PARAMS': {'AMP_ARGS': {'opt_level': 'O1'},
+                          'AMP_TYPE': 'apex',
+                          'USE_AMP': False},
+           'BASE_MODEL_NAME': 'multi_input_output_model',
+           'CUDA_CACHE': {'CLEAR_CUDA_CACHE': False, 'CLEAR_FREQ': 100},
+           'FEATURE_EVAL_SETTINGS': {'EVAL_MODE_ON': False,
+                                     'EVAL_TRUNK_AND_HEAD': False,
+                                     'EXTRACT_TRUNK_FEATURES_ONLY': False,
+                                     'FREEZE_TRUNK_AND_HEAD': False,
+                                     'FREEZE_TRUNK_ONLY': False,
+                                     'LINEAR_EVAL_FEAT_POOL_OPS_MAP': [],
+                                     'SHOULD_FLATTEN_FEATS': True},
+           'FSDP_CONFIG': {'AUTO_WRAP_THRESHOLD': 0,
+                           'bucket_cap_mb': 0,
+                           'clear_autocast_cache': True,
+                           'compute_dtype': torch.float32,
+                           'flatten_parameters': True,
+                           'fp32_reduce_scatter': False,
+                           'mixed_precision': True,
+                           'verbose': True},
+           'GRAD_CLIP': {'MAX_NORM': 1, 'NORM_TYPE': 2, 'USE_GRAD_CLIP': False},
+           'HEAD': {'BATCHNORM_EPS': 1e-05,
+                    'BATCHNORM_MOMENTUM': 0.1,
+                    'PARAMS': [['mlp', {'dims': [2048, 1000]}]],
+                    'PARAMS_MULTIPLIER': 1.0},
+           'INPUT_TYPE': 'rgb',
+           'MULTI_INPUT_HEAD_MAPPING': [],
+           'NON_TRAINABLE_PARAMS': [],
+           'SHARDED_DDP_SETUP': {'USE_SDP': False, 'reduce_buffer_size': -1},
+           'SINGLE_PASS_EVERY_CROP': False,
+           'SYNC_BN_CONFIG': {'CONVERT_BN_TO_SYNC_BN': False,
+                              'GROUP_SIZE': -1,
+                              'SYNC_BN_TYPE': 'pytorch'},
+           'TEMP_FROZEN_PARAMS_ITER_MAP': [],
+           'TRUNK': {'CONVIT': {'CLASS_TOKEN_IN_LOCAL_LAYERS': False,
+                                'LOCALITY_DIM': 10,
+                                'LOCALITY_STRENGTH': 1.0,
+                                'N_GPSA_LAYERS': 10,
+                                'USE_LOCAL_INIT': True},
+                     'EFFICIENT_NETS': {},
+                     'NAME': 'resnet',
+                     'REGNET': {},
+                     'RESNETS': {'DEPTH': 50,
+                                 'GROUPNORM_GROUPS': 32,
+                                 'GROUPS': 1,
+                                 'LAYER4_STRIDE': 2,
+                                 'NORM': 'BatchNorm',
+                                 'STANDARDIZE_CONVOLUTIONS': False,
+                                 'WIDTH_MULTIPLIER': 1,
+                                 'WIDTH_PER_GROUP': 64,
+                                 'ZERO_INIT_RESIDUAL': False},
+                     'VISION_TRANSFORMERS': {'ATTENTION_DROPOUT_RATE': 0,
+                                             'CLASSIFIER': 'token',
+                                             'DROPOUT_RATE': 0,
+                                             'DROP_PATH_RATE': 0,
+                                             'HIDDEN_DIM': 768,
+                                             'IMAGE_SIZE': 224,
+                                             'MLP_DIM': 3072,
+                                             'NUM_HEADS': 12,
+                                             'NUM_LAYERS': 12,
+                                             'PATCH_SIZE': 16,
+                                             'QKV_BIAS': False,
+                                             'QK_SCALE': False,
+                                             'name': None},
+                     'XCIT': {'ATTENTION_DROPOUT_RATE': 0,
+                              'DROPOUT_RATE': 0,
+                              'DROP_PATH_RATE': 0.05,
+                              'ETA': 1,
+                              'HIDDEN_DIM': 384,
+                              'IMAGE_SIZE': 224,
+                              'NUM_HEADS': 8,
+                              'NUM_LAYERS': 12,
+                              'PATCH_SIZE': 16,
+                              'QKV_BIAS': True,
+                              'QK_SCALE': False,
+                              'TOKENS_NORM': True,
+                              'name': None}},
+           'WEIGHTS_INIT': {'APPEND_PREFIX': '',
+                            'PARAMS_FILE': '',
+                            'REMOVE_PREFIX': '',
+                            'SKIP_LAYERS': ['num_batches_tracked'],
+                            'STATE_DICT_KEY_NAME': 'classy_state_dict'},
+           '_MODEL_INIT_SEED': 0},
+ 'MONITORING': {'MONITOR_ACTIVATION_STATISTICS': 0},
+ 'MULTI_PROCESSING_METHOD': 'fork',
+ 'NEAREST_NEIGHBOR': {'L2_NORM_FEATS': False, 'SIGMA': 0.1, 'TOPK': 200},
+ 'OPTIMIZER': {'betas': [0.9, 0.999],
+               'construct_single_param_group_only': False,
+               'head_optimizer_params': {'use_different_lr': False,
+                                         'use_different_wd': False,
+                                         'weight_decay': 0.0001},
+               'larc_config': {'clip': False,
+                               'eps': 1e-08,
+                               'trust_coefficient': 0.001},
+               'momentum': 0.9,
+               'name': 'sgd',
+               'nesterov': True,
+               'non_regularized_parameters': [],
+               'num_epochs': 2,
+               'param_schedulers': {'lr': {'auto_lr_scaling': {'auto_scale': True,
+                                                               'base_lr_batch_size': 256,
+                                                               'base_value': 0.1,
+                                                               'scaling_type': 'linear'},
+                                           'end_value': 0.0,
+                                           'interval_scaling': [],
+                                           'lengths': [],
+                                           'milestones': [1],
+                                           'name': 'multistep',
+                                           'schedulers': [],
+                                           'start_value': 0.1,
+                                           'update_interval': 'epoch',
+                                           'value': 0.1,
+                                           'values': [0.00078125, 7.813e-05]},
+                                    'lr_head': {'auto_lr_scaling': {'auto_scale': True,
+                                                                    'base_lr_batch_size': 256,
+                                                                    'base_value': 0.1,
+                                                                    'scaling_type': 'linear'},
+                                                'end_value': 0.0,
+                                                'interval_scaling': [],
+                                                'lengths': [],
+                                                'milestones': [1],
+                                                'name': 'multistep',
+                                                'schedulers': [],
+                                                'start_value': 0.1,
+                                                'update_interval': 'epoch',
+                                                'value': 0.1,
+                                                'values': [0.00078125,
+                                                           7.813e-05]}},
+               'regularize_bias': True,
+               'regularize_bn': False,
+               'use_larc': False,
+               'use_zero': False,
+               'weight_decay': 0.0001},
+ 'PROFILING': {'MEMORY_PROFILING': {'TRACK_BY_LAYER_MEMORY': False},
+               'NUM_ITERATIONS': 10,
+               'OUTPUT_FOLDER': '.',
+               'PROFILED_RANKS': [0, 1],
+               'RUNTIME_PROFILING': {'LEGACY_PROFILER': False,
+                                     'PROFILE_CPU': True,
+                                     'PROFILE_GPU': True,
+                                     'USE_PROFILER': False},
+               'START_ITERATION': 0,
+               'STOP_TRAINING_AFTER_PROFILING': False,
+               'WARMUP_ITERATIONS': 0},
+ 'REPRODUCIBILITY': {'CUDDN_DETERMINISTIC': False},
+ 'SEED_VALUE': 0,
+ 'SLURM': {'ADDITIONAL_PARAMETERS': {},
+           'COMMENT': 'vissl job',
+           'CONSTRAINT': '',
+           'LOG_FOLDER': '.',
+           'MEM_GB': 250,
+           'NAME': 'vissl',
+           'NUM_CPU_PER_PROC': 8,
+           'PARTITION': '',
+           'PORT_ID': 40050,
+           'TIME_HOURS': 72,
+           'TIME_MINUTES': 0,
+           'USE_SLURM': False},
+ 'SVM': {'cls_list': [],
+         'costs': {'base': -1.0,
+                   'costs_list': [0.1, 0.01],
+                   'power_range': [4, 20]},
+         'cross_val_folds': 3,
+         'dual': True,
+         'force_retrain': False,
+         'loss': 'squared_hinge',
+         'low_shot': {'dataset_name': 'voc',
+                      'k_values': [1, 2, 4, 8, 16, 32, 64, 96],
+                      'sample_inds': [1, 2, 3, 4, 5]},
+         'max_iter': 2000,
+         'normalize': True,
+         'penalty': 'l2'},
+ 'TEST_EVERY_NUM_EPOCH': 1,
+ 'TEST_MODEL': True,
+ 'TEST_ONLY': False,
+ 'TRAINER': {'TASK_NAME': 'self_supervision_task',
+             'TRAIN_STEP_NAME': 'standard_train_step'},
+ 'VERBOSE': True}
+INFO 2024-07-04 09:50:29,740 train.py: 117: System config:
+-------------------  ----------------------------------------------------------------------------------------
+sys.platform         linux
+Python               3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35) [GCC 12.3.0]
+numpy                1.19.5
+Pillow               9.4.0
+vissl                0.1.6 @/home/Daniele/codes/vissl/tutorials/vissl/vissl
+GPU available        True
+GPU 0                NVIDIA RTXA6000-24Q
+CUDA_HOME            /usr/local/cuda
+torchvision          0.9.0+cu101 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torchvision
+hydra                1.0.7 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/hydra
+classy_vision        0.7.0.dev @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/classy_vision
+tensorboard          2.17.0
+apex                 0.1 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/apex
+PyTorch              1.8.0+cu101 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torch
+PyTorch debug build  False
+-------------------  ----------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.7.0 (Git Hash 7aed236906b1f7a05c0917e5257a1af05e9ff683)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 10.1
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70
+  - CuDNN 7.6.3
+  - Magma 2.5.2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=10.1, CUDNN_VERSION=7.6.3, CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/c++, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.8.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+CPU info:
+----------------------------------  -----------------------------------------------------------------------------------------------
+Architecture                        x86_64
+CPU op-mode(s)                      32-bit, 64-bit
+Address sizes                       40 bits physical, 48 bits virtual
+Byte Order                          Little Endian
+CPU(s)                              8
+On-line CPU(s) list                 0-7
+Vendor ID                           AuthenticAMD
+Model name                          AMD EPYC Processor
+CPU family                          23
+Model                               1
+Thread(s) per core                  2
+Core(s) per socket                  4
+Socket(s)                           1
+Stepping                            2
+BogoMIPS                            4599.99
+Virtualization                      AMD-V
+Hypervisor vendor                   KVM
+Virtualization type                 full
+L1d cache                           128 KiB (4 instances)
+L1i cache                           256 KiB (4 instances)
+L2 cache                            2 MiB (4 instances)
+L3 cache                            8 MiB (1 instance)
+NUMA node(s)                        1
+NUMA node0 CPU(s)                   0-7
+Vulnerability Gather data sampling  Not affected
+Vulnerability Itlb multihit         Not affected
+Vulnerability L1tf                  Not affected
+Vulnerability Mds                   Not affected
+Vulnerability Meltdown              Not affected
+Vulnerability Mmio stale data       Not affected
+Vulnerability Retbleed              Mitigation; untrained return thunk; SMT vulnerable
+Vulnerability Spec rstack overflow  Mitigation; safe RET, no microcode
+Vulnerability Spec store bypass     Vulnerable
+Vulnerability Spectre v1            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2            Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds                 Not affected
+Vulnerability Tsx async abort       Not affected
+----------------------------------  -----------------------------------------------------------------------------------------------
+INFO 2024-07-04 09:50:29,741 tensorboard.py:  49: Tensorboard dir: content/checkpoints/tb_logs
+INFO 2024-07-04 09:50:29,742 tensorboard_hook.py:  90: Setting up SSL Tensorboard Hook...
+INFO 2024-07-04 09:50:29,742 tensorboard_hook.py: 102: Tensorboard config: log_params: True, log_params_freq: 310, log_params_gradients: True, log_activation_statistics: 0
+INFO 2024-07-04 09:50:29,743 trainer_main.py: 112: Using Distributed init method: tcp://localhost:52337, world_size: 1, rank: 0
+INFO 2024-07-04 09:50:29,746 distributed_c10d.py: 187: Added key: store_based_barrier_key:1 to store for rank: 0
+INFO 2024-07-04 09:50:29,746 trainer_main.py: 130: | initialized host daniele-gpu-2.de.dwd.expats.ewc as rank 0 (0)
+INFO 2024-07-04 09:50:29,883 train_task.py: 181: Not using Automatic Mixed Precision
+INFO 2024-07-04 09:50:29,883 train_task.py: 455: Building model....
+INFO 2024-07-04 09:50:29,883 resnext.py:  64: ResNeXT trunk, supports activation checkpointing. Deactivated
+INFO 2024-07-04 09:50:29,883 resnext.py:  87: Building model: ResNeXt50-1x64d-w1-BatchNorm2d
+INFO 2024-07-04 09:50:30,378 train_task.py: 656: Broadcast model BN buffers from primary on every forward pass
+INFO 2024-07-04 09:50:30,378 classification_task.py: 387: Synchronized Batch Normalization is disabled
+INFO 2024-07-04 09:50:30,421 optimizer_helper.py: 293: 
+Trainable params: 161, 
+Non-Trainable params: 0, 
+Trunk Regularized Parameters: 53, 
+Trunk Unregularized Parameters 106, 
+Head Regularized Parameters: 2, 
+Head Unregularized Parameters: 0 
+Remaining Regularized Parameters: 0 
+Remaining Unregularized Parameters: 0
+INFO 2024-07-04 09:50:30,422 ssl_dataset.py: 156: Rank: 0 split: TEST Data files:
+['content/dummy_data/val']
+INFO 2024-07-04 09:50:30,422 ssl_dataset.py: 159: Rank: 0 split: TEST Label files:
+['/home/Daniele/codes/vissl/content/dummy_data/val']
+INFO 2024-07-04 09:50:30,422 disk_dataset.py:  86: Loaded 10 samples from folder content/dummy_data/val
+INFO 2024-07-04 09:50:30,422 ssl_dataset.py: 156: Rank: 0 split: TRAIN Data files:
+['content/dummy_data/train']
+INFO 2024-07-04 09:50:30,422 ssl_dataset.py: 159: Rank: 0 split: TRAIN Label files:
+['/home/Daniele/codes/vissl/content/dummy_data/train']
+INFO 2024-07-04 09:50:30,423 disk_dataset.py:  86: Loaded 10 samples from folder content/dummy_data/train
+INFO 2024-07-04 09:50:30,423 misc.py: 161: Set start method of multiprocessing to fork
+INFO 2024-07-04 09:50:30,423 __init__.py: 126: Created the Distributed Sampler....
+INFO 2024-07-04 09:50:30,423 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 09:50:30,423 __init__.py: 215: Wrapping the dataloader to async device copies
+INFO 2024-07-04 09:50:30,423 misc.py: 161: Set start method of multiprocessing to fork
+INFO 2024-07-04 09:50:30,423 __init__.py: 126: Created the Distributed Sampler....
+INFO 2024-07-04 09:50:30,423 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 09:50:30,423 __init__.py: 215: Wrapping the dataloader to async device copies
+INFO 2024-07-04 09:50:30,423 train_task.py: 384: Building loss...
+INFO 2024-07-04 09:50:30,424 trainer_main.py: 268: Training 2 epochs
+INFO 2024-07-04 09:50:30,424 trainer_main.py: 269: One epoch = 5 iterations.
+INFO 2024-07-04 09:50:30,424 trainer_main.py: 270: Total 10 samples in one epoch
+INFO 2024-07-04 09:50:30,424 trainer_main.py: 276: Total 10 iterations for training
+INFO 2024-07-04 09:50:30,451 logger.py:  84: Thu Jul  4 09:50:30 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA RTXA6000-24Q            On  | 00000000:00:05.0 Off |                    0 |
+| N/A   N/A    P2              N/A /  N/A |    393MiB / 24576MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A    444804      C   python3                                     393MiB |
++---------------------------------------------------------------------------------------+
+
+INFO 2024-07-04 09:50:30,452 trainer_main.py: 173: Model is:
+ Classy <class 'vissl.models.base_ssl_model.BaseSSLMultiInputOutputModel'>:
+BaseSSLMultiInputOutputModel(
+  (_heads): ModuleDict()
+  (trunk): ResNeXt(
+    (_feature_blocks): ModuleDict(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv1_relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (4): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (5): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(<SUPPORTED_L4_STRIDE.two: 2>, <SUPPORTED_L4_STRIDE.two: 2>), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(<SUPPORTED_L4_STRIDE.two: 2>, <SUPPORTED_L4_STRIDE.two: 2>), bias=False)
+            (1): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (flatten): Flatten()
+    )
+  )
+  (heads): ModuleList(
+    (0): MLP(
+      (clf): Sequential(
+        (0): Linear(in_features=2048, out_features=1000, bias=True)
+      )
+    )
+  )
+)
+INFO 2024-07-04 09:50:30,453 trainer_main.py: 174: Loss is: CrossEntropyMultipleOutputSingleTargetLoss(
+  (criterion): CrossEntropyMultipleOutputSingleTargetCriterion(
+    (_losses): ModuleList()
+  )
+)
+INFO 2024-07-04 09:50:30,453 trainer_main.py: 175: Starting training....
+INFO 2024-07-04 09:50:30,453 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 09:50:30,588 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 09:50:30,588 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 09:50:30,589 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 09:50:30,589 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 09:50:30,590 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 09:50:30,674 trainer_main.py: 333: Phase advanced. Rank: 0
+INFO 2024-07-04 09:50:33,187 state_update_hooks.py: 115: Starting phase 0 [train]
+INFO 2024-07-04 10:20:20,729 train.py:  94: Env set for rank: 0, dist_rank: 0
+INFO 2024-07-04 10:20:20,745 env.py:  50: BROWSER:	/home/Daniele/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh
+INFO 2024-07-04 10:20:20,745 env.py:  50: CLICOLOR:	1
+INFO 2024-07-04 10:20:20,745 env.py:  50: CLICOLOR_FORCE:	1
+INFO 2024-07-04 10:20:20,745 env.py:  50: CONDA_DEFAULT_ENV:	vissl
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_EXE:	/home/Daniele/miniforge3/bin/conda
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_MKL_INTERFACE_LAYER_BACKUP:	
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_PREFIX:	/home/Daniele/miniforge3/envs/vissl
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_PREFIX_1:	/home/Daniele/miniforge3
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_PROMPT_MODIFIER:	(vissl) 
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_PYTHON_EXE:	/home/Daniele/miniforge3/bin/python
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_ROOT:	/home/Daniele/miniforge3
+INFO 2024-07-04 10:20:20,746 env.py:  50: CONDA_SHLVL:	2
+INFO 2024-07-04 10:20:20,746 env.py:  50: CPL_VSIL_CURL_CHUNK_SIZE:	10485760
+INFO 2024-07-04 10:20:20,746 env.py:  50: ELECTRON_RUN_AS_NODE:	1
+INFO 2024-07-04 10:20:20,746 env.py:  50: FORCE_COLOR:	1
+INFO 2024-07-04 10:20:20,746 env.py:  50: GIT_PAGER:	cat
+INFO 2024-07-04 10:20:20,746 env.py:  50: HOME:	/home/Daniele
+INFO 2024-07-04 10:20:20,746 env.py:  50: HOST_EXTERNAL:	daniele-gpu-2
+INFO 2024-07-04 10:20:20,746 env.py:  50: HOST_INTERNAL:	container35656
+INFO 2024-07-04 10:20:20,746 env.py:  50: INSTANCE_HOSTNAME:	daniele-gpu-2
+INFO 2024-07-04 10:20:20,746 env.py:  50: IP_INTERNAL:	10.0.0.20
+INFO 2024-07-04 10:20:20,746 env.py:  50: IP_PUBLIC:	64.225.131.103
+INFO 2024-07-04 10:20:20,746 env.py:  50: LANG:	C.UTF-8
+INFO 2024-07-04 10:20:20,746 env.py:  50: LC_ALL:	C.UTF-8
+INFO 2024-07-04 10:20:20,747 env.py:  50: LD_LIBRARY_PATH:	/usr/local/cuda/compat:/usr/local/cuda/lib:/usr/local/cuda/compat:/usr/local/cuda/lib
+INFO 2024-07-04 10:20:20,747 env.py:  50: LESSCLOSE:	/usr/bin/lesspipe %s %s
+INFO 2024-07-04 10:20:20,747 env.py:  50: LESSOPEN:	| /usr/bin/lesspipe %s
+INFO 2024-07-04 10:20:20,747 env.py:  50: LOCAL_RANK:	0
+INFO 2024-07-04 10:20:20,747 env.py:  50: LOGNAME:	Daniele
+INFO 2024-07-04 10:20:20,747 env.py:  50: LS_COLORS:	
+INFO 2024-07-04 10:20:20,747 env.py:  50: MKL_INTERFACE_LAYER:	LP64,GNU
+INFO 2024-07-04 10:20:20,747 env.py:  50: MOTD_SHOWN:	pam
+INFO 2024-07-04 10:20:20,747 env.py:  50: MPLBACKEND:	module://matplotlib_inline.backend_inline
+INFO 2024-07-04 10:20:20,747 env.py:  50: PAGER:	cat
+INFO 2024-07-04 10:20:20,747 env.py:  50: PATH:	/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/miniforge3/condabin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+INFO 2024-07-04 10:20:20,747 env.py:  50: PWD:	/home/Daniele/codes/vissl
+INFO 2024-07-04 10:20:20,747 env.py:  50: PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING:	1
+INFO 2024-07-04 10:20:20,747 env.py:  50: PYDEVD_USE_FRAME_EVAL:	NO
+INFO 2024-07-04 10:20:20,747 env.py:  50: PYTHONIOENCODING:	utf-8
+INFO 2024-07-04 10:20:20,747 env.py:  50: PYTHONUNBUFFERED:	1
+INFO 2024-07-04 10:20:20,747 env.py:  50: RANK:	0
+INFO 2024-07-04 10:20:20,747 env.py:  50: SHELL:	/bin/bash
+INFO 2024-07-04 10:20:20,748 env.py:  50: SHLVL:	2
+INFO 2024-07-04 10:20:20,748 env.py:  50: SSH_CLIENT:	193.190.253.145 51758 22
+INFO 2024-07-04 10:20:20,748 env.py:  50: SSH_CONNECTION:	193.190.253.145 51758 10.0.0.20 22
+INFO 2024-07-04 10:20:20,748 env.py:  50: TERM:	xterm-color
+INFO 2024-07-04 10:20:20,748 env.py:  50: USER:	Daniele
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_AGENT_FOLDER:	/home/Daniele/.vscode-server
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_AMD_ENTRYPOINT:	vs/workbench/api/node/extensionHostProcess
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_CWD:	/home/Daniele
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_HANDLES_SIGPIPE:	true
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_HANDLES_UNCAUGHT_ERRORS:	true
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_IPC_HOOK_CLI:	/run/user/1002/vscode-ipc-11763d5e-5683-49db-b581-a428c56daef0.sock
+INFO 2024-07-04 10:20:20,748 env.py:  50: VSCODE_NLS_CONFIG:	{"locale":"en","osLocale":"en","availableLanguages":{}}
+INFO 2024-07-04 10:20:20,748 env.py:  50: WORLD_SIZE:	1
+INFO 2024-07-04 10:20:20,748 env.py:  50: XDG_RUNTIME_DIR:	/run/user/1002
+INFO 2024-07-04 10:20:20,748 env.py:  50: XDG_SESSION_CLASS:	user
+INFO 2024-07-04 10:20:20,748 env.py:  50: XDG_SESSION_ID:	22
+INFO 2024-07-04 10:20:20,748 env.py:  50: XDG_SESSION_TYPE:	tty
+INFO 2024-07-04 10:20:20,749 env.py:  50: XML_CATALOG_FILES:	file:///home/Daniele/miniforge3/etc/xml/catalog file:///etc/xml/catalog
+INFO 2024-07-04 10:20:20,749 env.py:  50: _:	/home/Daniele/miniforge3/envs/vissl/bin/python3
+INFO 2024-07-04 10:20:20,749 env.py:  50: _CE_CONDA:	
+INFO 2024-07-04 10:20:20,749 env.py:  50: _CE_M:	
+INFO 2024-07-04 10:20:20,749 misc.py: 161: Set start method of multiprocessing to fork
+INFO 2024-07-04 10:20:20,749 train.py: 105: Setting seed....
+INFO 2024-07-04 10:20:20,749 misc.py: 173: MACHINE SEED: 0
+INFO 2024-07-04 10:20:20,750 hydra_config.py: 132: Training with config:
+INFO 2024-07-04 10:20:20,757 hydra_config.py: 141: {'CHECKPOINT': {'APPEND_DISTR_RUN_ID': False,
+                'AUTO_RESUME': True,
+                'BACKEND': 'disk',
+                'CHECKPOINT_FREQUENCY': 1,
+                'CHECKPOINT_ITER_FREQUENCY': -1,
+                'DIR': 'content/checkpoints',
+                'LATEST_CHECKPOINT_RESUME_FILE_NUM': 1,
+                'OVERWRITE_EXISTING': False,
+                'USE_SYMLINK_CHECKPOINT_FOR_RESUME': False},
+ 'CLUSTERFIT': {'CLUSTER_BACKEND': 'faiss',
+                'DATA_LIMIT': -1,
+                'DATA_LIMIT_SAMPLING': {'SEED': 0},
+                'FEATURES': {'DATASET_NAME': '',
+                             'DATA_PARTITION': 'TRAIN',
+                             'DIMENSIONALITY_REDUCTION': 0,
+                             'EXTRACT': False,
+                             'LAYER_NAME': '',
+                             'PATH': '.',
+                             'TEST_PARTITION': 'TEST'},
+                'NUM_CLUSTERS': 16000,
+                'NUM_ITER': 50,
+                'OUTPUT_DIR': '.'},
+ 'DATA': {'DDP_BUCKET_CAP_MB': 25,
+          'ENABLE_ASYNC_GPU_COPY': True,
+          'NUM_DATALOADER_WORKERS': 5,
+          'PIN_MEMORY': True,
+          'TEST': {'BASE_DATASET': 'generic_ssl',
+                   'BATCHSIZE_PER_REPLICA': 2,
+                   'COLLATE_FUNCTION': 'default_collate',
+                   'COLLATE_FUNCTION_PARAMS': {},
+                   'COPY_DESTINATION_DIR': '',
+                   'COPY_TO_LOCAL_DISK': False,
+                   'DATASET_NAMES': ['dummy_data_folder'],
+                   'DATA_LIMIT': -1,
+                   'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                           'SEED': 0,
+                                           'SKIP_NUM_SAMPLES': 0},
+                   'DATA_PATHS': ['content/dummy_data/val'],
+                   'DATA_SOURCES': ['disk_folder'],
+                   'DEFAULT_GRAY_IMG_SIZE': 224,
+                   'DROP_LAST': False,
+                   'ENABLE_QUEUE_DATASET': False,
+                   'INPUT_KEY_NAMES': ['data'],
+                   'LABEL_PATHS': [],
+                   'LABEL_SOURCES': ['disk_folder'],
+                   'LABEL_TYPE': 'standard',
+                   'MMAP_MODE': True,
+                   'NEW_IMG_PATH_PREFIX': '',
+                   'RANDOM_SYNTHETIC_IMAGES': False,
+                   'REMOVE_IMG_PATH_PREFIX': '',
+                   'TARGET_KEY_NAMES': ['label'],
+                   'TRANSFORMS': [{'name': 'Resize', 'size': 256},
+                                  {'name': 'CenterCrop', 'size': 224},
+                                  {'name': 'ToTensor'},
+                                  {'mean': [0.485, 0.456, 0.406],
+                                   'name': 'Normalize',
+                                   'std': [0.229, 0.224, 0.225]}],
+                   'USE_DEBUGGING_SAMPLER': False,
+                   'USE_STATEFUL_DISTRIBUTED_SAMPLER': False},
+          'TRAIN': {'BASE_DATASET': 'generic_ssl',
+                    'BATCHSIZE_PER_REPLICA': 2,
+                    'COLLATE_FUNCTION': 'default_collate',
+                    'COLLATE_FUNCTION_PARAMS': {},
+                    'COPY_DESTINATION_DIR': '',
+                    'COPY_TO_LOCAL_DISK': False,
+                    'DATASET_NAMES': ['dummy_data_folder'],
+                    'DATA_LIMIT': -1,
+                    'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                            'SEED': 0,
+                                            'SKIP_NUM_SAMPLES': 0},
+                    'DATA_PATHS': ['content/dummy_data/train'],
+                    'DATA_SOURCES': ['disk_folder'],
+                    'DEFAULT_GRAY_IMG_SIZE': 224,
+                    'DROP_LAST': False,
+                    'ENABLE_QUEUE_DATASET': False,
+                    'INPUT_KEY_NAMES': ['data'],
+                    'LABEL_PATHS': [],
+                    'LABEL_SOURCES': ['disk_folder'],
+                    'LABEL_TYPE': 'standard',
+                    'MMAP_MODE': True,
+                    'NEW_IMG_PATH_PREFIX': '',
+                    'RANDOM_SYNTHETIC_IMAGES': False,
+                    'REMOVE_IMG_PATH_PREFIX': '',
+                    'TARGET_KEY_NAMES': ['label'],
+                    'TRANSFORMS': [{'name': 'RandomResizedCrop', 'size': 224},
+                                   {'name': 'RandomHorizontalFlip'},
+                                   {'brightness': 0.4,
+                                    'contrast': 0.4,
+                                    'hue': 0.4,
+                                    'name': 'ColorJitter',
+                                    'saturation': 0.4},
+                                   {'name': 'ToTensor'},
+                                   {'mean': [0.485, 0.456, 0.406],
+                                    'name': 'Normalize',
+                                    'std': [0.229, 0.224, 0.225]}],
+                    'USE_DEBUGGING_SAMPLER': False,
+                    'USE_STATEFUL_DISTRIBUTED_SAMPLER': False}},
+ 'DISTRIBUTED': {'BACKEND': 'nccl',
+                 'BROADCAST_BUFFERS': True,
+                 'INIT_METHOD': 'tcp',
+                 'MANUAL_GRADIENT_REDUCTION': False,
+                 'NCCL_DEBUG': False,
+                 'NCCL_SOCKET_NTHREADS': '',
+                 'NUM_NODES': 1,
+                 'NUM_PROC_PER_NODE': 1,
+                 'RUN_ID': 'auto'},
+ 'EXTRACT_FEATURES': {'CHUNK_THRESHOLD': 0, 'OUTPUT_DIR': ''},
+ 'HOOKS': {'CHECK_NAN': True,
+           'LOG_GPU_STATS': True,
+           'MEMORY_SUMMARY': {'DUMP_MEMORY_ON_EXCEPTION': False,
+                              'LOG_ITERATION_NUM': 0,
+                              'PRINT_MEMORY_SUMMARY': False},
+           'MODEL_COMPLEXITY': {'COMPUTE_COMPLEXITY': False,
+                                'INPUT_SHAPE': [3, 224, 224]},
+           'PERF_STATS': {'MONITOR_PERF_STATS': False,
+                          'PERF_STAT_FREQUENCY': -1,
+                          'ROLLING_BTIME_FREQ': -1},
+           'TENSORBOARD_SETUP': {'EXPERIMENT_LOG_DIR': 'tensorboard',
+                                 'FLUSH_EVERY_N_MIN': 5,
+                                 'LOG_DIR': '.',
+                                 'LOG_PARAMS': True,
+                                 'LOG_PARAMS_EVERY_N_ITERS': 310,
+                                 'LOG_PARAMS_GRADIENTS': True,
+                                 'USE_TENSORBOARD': True}},
+ 'IMG_RETRIEVAL': {'CROP_QUERY_ROI': False,
+                   'DATASET_PATH': '',
+                   'DEBUG_MODE': False,
+                   'EVAL_BINARY_PATH': '',
+                   'EVAL_DATASET_NAME': 'Paris',
+                   'FEATS_PROCESSING_TYPE': '',
+                   'GEM_POOL_POWER': 4.0,
+                   'IMG_SCALINGS': [1],
+                   'NORMALIZE_FEATURES': True,
+                   'NUM_DATABASE_SAMPLES': -1,
+                   'NUM_QUERY_SAMPLES': -1,
+                   'NUM_TRAINING_SAMPLES': -1,
+                   'N_PCA': 512,
+                   'RESIZE_IMG': 1024,
+                   'SAVE_FEATURES': False,
+                   'SAVE_RETRIEVAL_RANKINGS_SCORES': True,
+                   'SIMILARITY_MEASURE': 'cosine_similarity',
+                   'SPATIAL_LEVELS': 3,
+                   'TRAIN_DATASET_NAME': 'Oxford',
+                   'TRAIN_PCA_WHITENING': True,
+                   'USE_DISTRACTORS': False,
+                   'WHITEN_IMG_LIST': ''},
+ 'LOG_FREQUENCY': 100,
+ 'LOSS': {'CrossEntropyLoss': {'ignore_index': -1},
+          'barlow_twins_loss': {'embedding_dim': 8192,
+                                'lambda_': 0.0051,
+                                'scale_loss': 0.024},
+          'bce_logits_multiple_output_single_target': {'normalize_output': False,
+                                                       'reduction': 'none',
+                                                       'world_size': 1},
+          'cross_entropy_multiple_output_single_target': {'ignore_index': -1,
+                                                          'normalize_output': False,
+                                                          'reduction': 'mean',
+                                                          'temperature': 1.0,
+                                                          'weight': None},
+          'deepclusterv2_loss': {'BATCHSIZE_PER_REPLICA': 256,
+                                 'DROP_LAST': True,
+                                 'kmeans_iters': 10,
+                                 'memory_params': {'crops_for_mb': [0],
+                                                   'embedding_dim': 128},
+                                 'num_clusters': [3000, 3000, 3000],
+                                 'num_crops': 2,
+                                 'num_train_samples': -1,
+                                 'temperature': 0.1},
+          'dino_loss': {'crops_for_teacher': [0, 1],
+                        'ema_center': 0.9,
+                        'momentum': 0.996,
+                        'normalize_last_layer': True,
+                        'output_dim': 65536,
+                        'student_temp': 0.1,
+                        'teacher_temp_max': 0.07,
+                        'teacher_temp_min': 0.04,
+                        'teacher_temp_warmup_iters': 37500},
+          'moco_loss': {'embedding_dim': 128,
+                        'momentum': 0.999,
+                        'queue_size': 65536,
+                        'temperature': 0.2},
+          'multicrop_simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                               'embedding_dim': 128,
+                                                               'world_size': 64},
+                                             'num_crops': 2,
+                                             'temperature': 0.1},
+          'name': 'cross_entropy_multiple_output_single_target',
+          'nce_loss_with_memory': {'loss_type': 'nce',
+                                   'loss_weights': [1.0],
+                                   'memory_params': {'embedding_dim': 128,
+                                                     'memory_size': -1,
+                                                     'momentum': 0.5,
+                                                     'norm_init': True,
+                                                     'update_mem_on_forward': True},
+                                   'negative_sampling_params': {'num_negatives': 16000,
+                                                                'type': 'random'},
+                                   'norm_constant': -1,
+                                   'norm_embedding': True,
+                                   'num_train_samples': -1,
+                                   'temperature': 0.07,
+                                   'update_mem_with_emb_index': -100},
+          'simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                     'embedding_dim': 128,
+                                                     'world_size': 64},
+                                   'temperature': 0.1},
+          'swav_loss': {'crops_for_assign': [0, 1],
+                        'embedding_dim': 128,
+                        'epsilon': 0.05,
+                        'normalize_last_layer': True,
+                        'num_crops': 2,
+                        'num_iters': 3,
+                        'num_prototypes': [3000],
+                        'output_dir': '.',
+                        'queue': {'local_queue_length': 0,
+                                  'queue_length': 0,
+                                  'start_iter': 0},
+                        'temp_hard_assignment_iters': 0,
+                        'temperature': 0.1,
+                        'use_double_precision': False},
+          'swav_momentum_loss': {'crops_for_assign': [0, 1],
+                                 'embedding_dim': 128,
+                                 'epsilon': 0.05,
+                                 'momentum': 0.99,
+                                 'momentum_eval_mode_iter_start': 0,
+                                 'normalize_last_layer': True,
+                                 'num_crops': 2,
+                                 'num_iters': 3,
+                                 'num_prototypes': [3000],
+                                 'queue': {'local_queue_length': 0,
+                                           'queue_length': 0,
+                                           'start_iter': 0},
+                                 'temperature': 0.1,
+                                 'use_double_precision': False}},
+ 'MACHINE': {'DEVICE': 'gpu'},
+ 'METERS': {'accuracy_list_meter': {'meter_names': [],
+                                    'num_meters': 1,
+                                    'topk_values': [1, 5]},
+            'enable_training_meter': True,
+            'mean_ap_list_meter': {'max_cpu_capacity': -1,
+                                   'meter_names': [],
+                                   'num_classes': 9605,
+                                   'num_meters': 1},
+            'model_output_mask': False,
+            'name': 'accuracy_list_meter',
+            'names': ['accuracy_list_meter'],
+            'precision_at_k_list_meter': {'meter_names': [],
+                                          'num_meters': 1,
+                                          'topk_values': [1]},
+            'recall_at_k_list_meter': {'meter_names': [],
+                                       'num_meters': 1,
+                                       'topk_values': [1]}},
+ 'MODEL': {'ACTIVATION_CHECKPOINTING': {'NUM_ACTIVATION_CHECKPOINTING_SPLITS': 2,
+                                        'USE_ACTIVATION_CHECKPOINTING': False},
+           'AMP_PARAMS': {'AMP_ARGS': {'opt_level': 'O1'},
+                          'AMP_TYPE': 'apex',
+                          'USE_AMP': False},
+           'BASE_MODEL_NAME': 'multi_input_output_model',
+           'CUDA_CACHE': {'CLEAR_CUDA_CACHE': False, 'CLEAR_FREQ': 100},
+           'FEATURE_EVAL_SETTINGS': {'EVAL_MODE_ON': False,
+                                     'EVAL_TRUNK_AND_HEAD': False,
+                                     'EXTRACT_TRUNK_FEATURES_ONLY': False,
+                                     'FREEZE_TRUNK_AND_HEAD': False,
+                                     'FREEZE_TRUNK_ONLY': False,
+                                     'LINEAR_EVAL_FEAT_POOL_OPS_MAP': [],
+                                     'SHOULD_FLATTEN_FEATS': True},
+           'FSDP_CONFIG': {'AUTO_WRAP_THRESHOLD': 0,
+                           'bucket_cap_mb': 0,
+                           'clear_autocast_cache': True,
+                           'compute_dtype': torch.float32,
+                           'flatten_parameters': True,
+                           'fp32_reduce_scatter': False,
+                           'mixed_precision': True,
+                           'verbose': True},
+           'GRAD_CLIP': {'MAX_NORM': 1, 'NORM_TYPE': 2, 'USE_GRAD_CLIP': False},
+           'HEAD': {'BATCHNORM_EPS': 1e-05,
+                    'BATCHNORM_MOMENTUM': 0.1,
+                    'PARAMS': [['mlp', {'dims': [2048, 1000]}]],
+                    'PARAMS_MULTIPLIER': 1.0},
+           'INPUT_TYPE': 'rgb',
+           'MULTI_INPUT_HEAD_MAPPING': [],
+           'NON_TRAINABLE_PARAMS': [],
+           'SHARDED_DDP_SETUP': {'USE_SDP': False, 'reduce_buffer_size': -1},
+           'SINGLE_PASS_EVERY_CROP': False,
+           'SYNC_BN_CONFIG': {'CONVERT_BN_TO_SYNC_BN': False,
+                              'GROUP_SIZE': -1,
+                              'SYNC_BN_TYPE': 'pytorch'},
+           'TEMP_FROZEN_PARAMS_ITER_MAP': [],
+           'TRUNK': {'CONVIT': {'CLASS_TOKEN_IN_LOCAL_LAYERS': False,
+                                'LOCALITY_DIM': 10,
+                                'LOCALITY_STRENGTH': 1.0,
+                                'N_GPSA_LAYERS': 10,
+                                'USE_LOCAL_INIT': True},
+                     'EFFICIENT_NETS': {},
+                     'NAME': 'resnet',
+                     'REGNET': {},
+                     'RESNETS': {'DEPTH': 50,
+                                 'GROUPNORM_GROUPS': 32,
+                                 'GROUPS': 1,
+                                 'LAYER4_STRIDE': 2,
+                                 'NORM': 'BatchNorm',
+                                 'STANDARDIZE_CONVOLUTIONS': False,
+                                 'WIDTH_MULTIPLIER': 1,
+                                 'WIDTH_PER_GROUP': 64,
+                                 'ZERO_INIT_RESIDUAL': False},
+                     'VISION_TRANSFORMERS': {'ATTENTION_DROPOUT_RATE': 0,
+                                             'CLASSIFIER': 'token',
+                                             'DROPOUT_RATE': 0,
+                                             'DROP_PATH_RATE': 0,
+                                             'HIDDEN_DIM': 768,
+                                             'IMAGE_SIZE': 224,
+                                             'MLP_DIM': 3072,
+                                             'NUM_HEADS': 12,
+                                             'NUM_LAYERS': 12,
+                                             'PATCH_SIZE': 16,
+                                             'QKV_BIAS': False,
+                                             'QK_SCALE': False,
+                                             'name': None},
+                     'XCIT': {'ATTENTION_DROPOUT_RATE': 0,
+                              'DROPOUT_RATE': 0,
+                              'DROP_PATH_RATE': 0.05,
+                              'ETA': 1,
+                              'HIDDEN_DIM': 384,
+                              'IMAGE_SIZE': 224,
+                              'NUM_HEADS': 8,
+                              'NUM_LAYERS': 12,
+                              'PATCH_SIZE': 16,
+                              'QKV_BIAS': True,
+                              'QK_SCALE': False,
+                              'TOKENS_NORM': True,
+                              'name': None}},
+           'WEIGHTS_INIT': {'APPEND_PREFIX': '',
+                            'PARAMS_FILE': '',
+                            'REMOVE_PREFIX': '',
+                            'SKIP_LAYERS': ['num_batches_tracked'],
+                            'STATE_DICT_KEY_NAME': 'classy_state_dict'},
+           '_MODEL_INIT_SEED': 0},
+ 'MONITORING': {'MONITOR_ACTIVATION_STATISTICS': 0},
+ 'MULTI_PROCESSING_METHOD': 'fork',
+ 'NEAREST_NEIGHBOR': {'L2_NORM_FEATS': False, 'SIGMA': 0.1, 'TOPK': 200},
+ 'OPTIMIZER': {'betas': [0.9, 0.999],
+               'construct_single_param_group_only': False,
+               'head_optimizer_params': {'use_different_lr': False,
+                                         'use_different_wd': False,
+                                         'weight_decay': 0.0001},
+               'larc_config': {'clip': False,
+                               'eps': 1e-08,
+                               'trust_coefficient': 0.001},
+               'momentum': 0.9,
+               'name': 'sgd',
+               'nesterov': True,
+               'non_regularized_parameters': [],
+               'num_epochs': 2,
+               'param_schedulers': {'lr': {'auto_lr_scaling': {'auto_scale': True,
+                                                               'base_lr_batch_size': 256,
+                                                               'base_value': 0.1,
+                                                               'scaling_type': 'linear'},
+                                           'end_value': 0.0,
+                                           'interval_scaling': [],
+                                           'lengths': [],
+                                           'milestones': [1],
+                                           'name': 'multistep',
+                                           'schedulers': [],
+                                           'start_value': 0.1,
+                                           'update_interval': 'epoch',
+                                           'value': 0.1,
+                                           'values': [0.00078125, 7.813e-05]},
+                                    'lr_head': {'auto_lr_scaling': {'auto_scale': True,
+                                                                    'base_lr_batch_size': 256,
+                                                                    'base_value': 0.1,
+                                                                    'scaling_type': 'linear'},
+                                                'end_value': 0.0,
+                                                'interval_scaling': [],
+                                                'lengths': [],
+                                                'milestones': [1],
+                                                'name': 'multistep',
+                                                'schedulers': [],
+                                                'start_value': 0.1,
+                                                'update_interval': 'epoch',
+                                                'value': 0.1,
+                                                'values': [0.00078125,
+                                                           7.813e-05]}},
+               'regularize_bias': True,
+               'regularize_bn': False,
+               'use_larc': False,
+               'use_zero': False,
+               'weight_decay': 0.0001},
+ 'PROFILING': {'MEMORY_PROFILING': {'TRACK_BY_LAYER_MEMORY': False},
+               'NUM_ITERATIONS': 10,
+               'OUTPUT_FOLDER': '.',
+               'PROFILED_RANKS': [0, 1],
+               'RUNTIME_PROFILING': {'LEGACY_PROFILER': False,
+                                     'PROFILE_CPU': True,
+                                     'PROFILE_GPU': True,
+                                     'USE_PROFILER': False},
+               'START_ITERATION': 0,
+               'STOP_TRAINING_AFTER_PROFILING': False,
+               'WARMUP_ITERATIONS': 0},
+ 'REPRODUCIBILITY': {'CUDDN_DETERMINISTIC': False},
+ 'SEED_VALUE': 0,
+ 'SLURM': {'ADDITIONAL_PARAMETERS': {},
+           'COMMENT': 'vissl job',
+           'CONSTRAINT': '',
+           'LOG_FOLDER': '.',
+           'MEM_GB': 250,
+           'NAME': 'vissl',
+           'NUM_CPU_PER_PROC': 8,
+           'PARTITION': '',
+           'PORT_ID': 40050,
+           'TIME_HOURS': 72,
+           'TIME_MINUTES': 0,
+           'USE_SLURM': False},
+ 'SVM': {'cls_list': [],
+         'costs': {'base': -1.0,
+                   'costs_list': [0.1, 0.01],
+                   'power_range': [4, 20]},
+         'cross_val_folds': 3,
+         'dual': True,
+         'force_retrain': False,
+         'loss': 'squared_hinge',
+         'low_shot': {'dataset_name': 'voc',
+                      'k_values': [1, 2, 4, 8, 16, 32, 64, 96],
+                      'sample_inds': [1, 2, 3, 4, 5]},
+         'max_iter': 2000,
+         'normalize': True,
+         'penalty': 'l2'},
+ 'TEST_EVERY_NUM_EPOCH': 1,
+ 'TEST_MODEL': True,
+ 'TEST_ONLY': False,
+ 'TRAINER': {'TASK_NAME': 'self_supervision_task',
+             'TRAIN_STEP_NAME': 'standard_train_step'},
+ 'VERBOSE': True}
+INFO 2024-07-04 10:20:21,335 train.py: 117: System config:
+-------------------  ----------------------------------------------------------------------------------------
+sys.platform         linux
+Python               3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35) [GCC 12.3.0]
+numpy                1.19.5
+Pillow               9.4.0
+vissl                0.1.6 @/home/Daniele/codes/vissl/tutorials/vissl/vissl
+GPU available        True
+GPU 0                NVIDIA RTXA6000-24Q
+CUDA_HOME            /usr/local/cuda
+torchvision          0.9.1+cu111 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torchvision
+hydra                1.0.7 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/hydra
+classy_vision        0.7.0.dev @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/classy_vision
+tensorboard          2.17.0
+apex                 0.1 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/apex
+PyTorch              1.8.1+cu111 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torch
+PyTorch debug build  False
+-------------------  ----------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.7.0 (Git Hash 7aed236906b1f7a05c0917e5257a1af05e9ff683)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.1
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86
+  - CuDNN 8.0.5
+  - Magma 2.5.2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.1, CUDNN_VERSION=8.0.5, CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/c++, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.8.1, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+CPU info:
+----------------------------------  -----------------------------------------------------------------------------------------------
+Architecture                        x86_64
+CPU op-mode(s)                      32-bit, 64-bit
+Address sizes                       40 bits physical, 48 bits virtual
+Byte Order                          Little Endian
+CPU(s)                              8
+On-line CPU(s) list                 0-7
+Vendor ID                           AuthenticAMD
+Model name                          AMD EPYC Processor
+CPU family                          23
+Model                               1
+Thread(s) per core                  2
+Core(s) per socket                  4
+Socket(s)                           1
+Stepping                            2
+BogoMIPS                            4599.99
+Virtualization                      AMD-V
+Hypervisor vendor                   KVM
+Virtualization type                 full
+L1d cache                           128 KiB (4 instances)
+L1i cache                           256 KiB (4 instances)
+L2 cache                            2 MiB (4 instances)
+L3 cache                            8 MiB (1 instance)
+NUMA node(s)                        1
+NUMA node0 CPU(s)                   0-7
+Vulnerability Gather data sampling  Not affected
+Vulnerability Itlb multihit         Not affected
+Vulnerability L1tf                  Not affected
+Vulnerability Mds                   Not affected
+Vulnerability Meltdown              Not affected
+Vulnerability Mmio stale data       Not affected
+Vulnerability Retbleed              Mitigation; untrained return thunk; SMT vulnerable
+Vulnerability Spec rstack overflow  Mitigation; safe RET, no microcode
+Vulnerability Spec store bypass     Vulnerable
+Vulnerability Spectre v1            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2            Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds                 Not affected
+Vulnerability Tsx async abort       Not affected
+----------------------------------  -----------------------------------------------------------------------------------------------
+INFO 2024-07-04 10:20:21,336 tensorboard.py:  49: Tensorboard dir: content/checkpoints/tb_logs
+INFO 2024-07-04 10:20:21,337 tensorboard_hook.py:  90: Setting up SSL Tensorboard Hook...
+INFO 2024-07-04 10:20:21,337 tensorboard_hook.py: 102: Tensorboard config: log_params: True, log_params_freq: 310, log_params_gradients: True, log_activation_statistics: 0
+INFO 2024-07-04 10:20:21,338 trainer_main.py: 112: Using Distributed init method: tcp://localhost:50789, world_size: 1, rank: 0
+INFO 2024-07-04 10:20:21,342 distributed_c10d.py: 187: Added key: store_based_barrier_key:1 to store for rank: 0
+INFO 2024-07-04 10:20:21,342 trainer_main.py: 130: | initialized host daniele-gpu-2.de.dwd.expats.ewc as rank 0 (0)
+INFO 2024-07-04 10:20:25,398 train_task.py: 181: Not using Automatic Mixed Precision
+INFO 2024-07-04 10:20:25,398 train_task.py: 455: Building model....
+INFO 2024-07-04 10:20:25,398 resnext.py:  64: ResNeXT trunk, supports activation checkpointing. Deactivated
+INFO 2024-07-04 10:20:25,398 resnext.py:  87: Building model: ResNeXt50-1x64d-w1-BatchNorm2d
+INFO 2024-07-04 10:20:25,901 train_task.py: 656: Broadcast model BN buffers from primary on every forward pass
+INFO 2024-07-04 10:20:25,902 classification_task.py: 387: Synchronized Batch Normalization is disabled
+INFO 2024-07-04 10:20:25,943 optimizer_helper.py: 293: 
+Trainable params: 161, 
+Non-Trainable params: 0, 
+Trunk Regularized Parameters: 53, 
+Trunk Unregularized Parameters 106, 
+Head Regularized Parameters: 2, 
+Head Unregularized Parameters: 0 
+Remaining Regularized Parameters: 0 
+Remaining Unregularized Parameters: 0
+INFO 2024-07-04 10:20:25,944 ssl_dataset.py: 156: Rank: 0 split: TEST Data files:
+['content/dummy_data/val']
+INFO 2024-07-04 10:20:25,944 ssl_dataset.py: 159: Rank: 0 split: TEST Label files:
+['/home/Daniele/codes/vissl/content/dummy_data/val']
+INFO 2024-07-04 10:20:25,945 disk_dataset.py:  86: Loaded 10 samples from folder content/dummy_data/val
+INFO 2024-07-04 10:20:25,945 ssl_dataset.py: 156: Rank: 0 split: TRAIN Data files:
+['content/dummy_data/train']
+INFO 2024-07-04 10:20:25,945 ssl_dataset.py: 159: Rank: 0 split: TRAIN Label files:
+['/home/Daniele/codes/vissl/content/dummy_data/train']
+INFO 2024-07-04 10:20:25,945 disk_dataset.py:  86: Loaded 10 samples from folder content/dummy_data/train
+INFO 2024-07-04 10:20:25,945 misc.py: 161: Set start method of multiprocessing to fork
+INFO 2024-07-04 10:20:25,946 __init__.py: 126: Created the Distributed Sampler....
+INFO 2024-07-04 10:20:25,946 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 10:20:25,946 __init__.py: 215: Wrapping the dataloader to async device copies
+INFO 2024-07-04 10:20:25,946 misc.py: 161: Set start method of multiprocessing to fork
+INFO 2024-07-04 10:20:25,946 __init__.py: 126: Created the Distributed Sampler....
+INFO 2024-07-04 10:20:25,946 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 10:20:25,946 __init__.py: 215: Wrapping the dataloader to async device copies
+INFO 2024-07-04 10:20:25,946 train_task.py: 384: Building loss...
+INFO 2024-07-04 10:20:25,947 trainer_main.py: 268: Training 2 epochs
+INFO 2024-07-04 10:20:25,947 trainer_main.py: 269: One epoch = 5 iterations.
+INFO 2024-07-04 10:20:25,947 trainer_main.py: 270: Total 10 samples in one epoch
+INFO 2024-07-04 10:20:25,947 trainer_main.py: 276: Total 10 iterations for training
+INFO 2024-07-04 10:20:26,068 logger.py:  84: Thu Jul  4 10:20:26 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA RTXA6000-24Q            On  | 00000000:00:05.0 Off |                    0 |
+| N/A   N/A    P2              N/A /  N/A |   1783MiB / 24576MiB |      2%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A    443215      C   ...le/miniforge3/envs/vissl/bin/python      265MiB |
+|    0   N/A  N/A    445599      C   python3                                    1517MiB |
++---------------------------------------------------------------------------------------+
+
+INFO 2024-07-04 10:20:26,069 trainer_main.py: 173: Model is:
+ Classy <class 'vissl.models.base_ssl_model.BaseSSLMultiInputOutputModel'>:
+BaseSSLMultiInputOutputModel(
+  (_heads): ModuleDict()
+  (trunk): ResNeXt(
+    (_feature_blocks): ModuleDict(
+      (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv1_relu): ReLU(inplace=True)
+      (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+      (layer1): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (4): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (5): Bottleneck(
+          (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(<SUPPORTED_L4_STRIDE.two: 2>, <SUPPORTED_L4_STRIDE.two: 2>), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+          (downsample): Sequential(
+            (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(<SUPPORTED_L4_STRIDE.two: 2>, <SUPPORTED_L4_STRIDE.two: 2>), bias=False)
+            (1): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu): ReLU(inplace=True)
+        )
+      )
+      (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+      (flatten): Flatten()
+    )
+  )
+  (heads): ModuleList(
+    (0): MLP(
+      (clf): Sequential(
+        (0): Linear(in_features=2048, out_features=1000, bias=True)
+      )
+    )
+  )
+)
+INFO 2024-07-04 10:20:26,070 trainer_main.py: 174: Loss is: CrossEntropyMultipleOutputSingleTargetLoss(
+  (criterion): CrossEntropyMultipleOutputSingleTargetCriterion(
+    (_losses): ModuleList()
+  )
+)
+INFO 2024-07-04 10:20:26,070 trainer_main.py: 175: Starting training....
+INFO 2024-07-04 10:20:26,070 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 0, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 10:20:26,388 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:26,388 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:26,399 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:26,399 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:26,399 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:26,571 trainer_main.py: 333: Phase advanced. Rank: 0
+INFO 2024-07-04 10:20:29,077 state_update_hooks.py: 115: Starting phase 0 [train]
+INFO 2024-07-04 10:20:32,497 tensorboard_hook.py: 236: Logging Parameter gradients. Iteration 0
+INFO 2024-07-04 10:20:35,062 tensorboard_hook.py: 255: Logging metrics. Iteration 0
+INFO 2024-07-04 10:20:35,066 log_hooks.py: 277: Rank: 0; [ep: 0] iter: 0; lr: 0.00078; loss: 7.115; btime(ms): 0; eta: 0:00:00; peak_mem(M): 2595;
+INFO 2024-07-04 10:20:35,108 log_hooks.py: 277: Rank: 0; [ep: 0] iter: 1; lr: 0.00078; loss: 7.88116; btime(ms): 9119; eta: 0:01:22; peak_mem(M): 2595; max_iterations: 10;
+INFO 2024-07-04 10:20:35,310 trainer_main.py: 214: Meters synced
+INFO 2024-07-04 10:20:40,298 log_hooks.py: 498: Rank: 0, name: train_accuracy_list_meter, value: {'top_1': {0: 20.0}, 'top_5': {0: 60.0}}
+INFO 2024-07-04 10:20:40,298 io.py:  63: Saving data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:40,299 io.py:  89: Saved data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:40,299 log_hooks.py: 425: [phase: 0] Saving checkpoint to content/checkpoints
+INFO 2024-07-04 10:20:40,559 checkpoint.py: 131: Saved checkpoint: content/checkpoints/model_phase0.torch
+INFO 2024-07-04 10:20:40,559 checkpoint.py: 140: Creating symlink...
+INFO 2024-07-04 10:20:40,560 checkpoint.py: 144: Created symlink: content/checkpoints/checkpoint.torch
+INFO 2024-07-04 10:20:40,560 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 1, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 10:20:40,837 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:40,838 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:40,838 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:40,838 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:40,839 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:40,930 trainer_main.py: 333: Phase advanced. Rank: 0
+INFO 2024-07-04 10:20:40,930 state_update_hooks.py: 115: Starting phase 1 [test]
+INFO 2024-07-04 10:20:41,172 trainer_main.py: 214: Meters synced
+INFO 2024-07-04 10:20:41,173 log_hooks.py: 498: Rank: 0, name: test_accuracy_list_meter, value: {'top_1': {0: 50.0}, 'top_5': {0: 100.0}}
+INFO 2024-07-04 10:20:41,173 io.py:  63: Saving data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:41,173 io.py:  89: Saved data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:41,173 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 2, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 10:20:41,453 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:41,453 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:41,453 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:41,453 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:41,454 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/train
+INFO 2024-07-04 10:20:41,523 trainer_main.py: 333: Phase advanced. Rank: 0
+INFO 2024-07-04 10:20:41,523 state_update_hooks.py: 115: Starting phase 2 [train]
+INFO 2024-07-04 10:20:41,560 tensorboard_hook.py: 255: Logging metrics. Iteration 5
+INFO 2024-07-04 10:20:41,568 log_hooks.py: 277: Rank: 0; [ep: 1] iter: 5; lr: 8e-05; loss: 1.07093; btime(ms): 1522; eta: 0:00:07; peak_mem(M): 492;
+INFO 2024-07-04 10:20:41,789 trainer_main.py: 214: Meters synced
+INFO 2024-07-04 10:20:46,798 log_hooks.py: 498: Rank: 0, name: train_accuracy_list_meter, value: {'top_1': {0: 60.0}, 'top_5': {0: 100.0}}
+INFO 2024-07-04 10:20:46,798 io.py:  63: Saving data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:46,798 io.py:  89: Saved data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:46,798 log_hooks.py: 425: [phase: 1] Saving checkpoint to content/checkpoints
+INFO 2024-07-04 10:20:47,059 checkpoint.py: 131: Saved checkpoint: content/checkpoints/model_final_checkpoint_phase1.torch
+INFO 2024-07-04 10:20:47,059 checkpoint.py: 140: Creating symlink...
+INFO 2024-07-04 10:20:47,059 checkpoint.py: 144: Created symlink: content/checkpoints/checkpoint.torch
+INFO 2024-07-04 10:20:47,059 __init__.py: 101: Distributed Sampler config:
+{'num_replicas': 1, 'rank': 0, 'epoch': 3, 'num_samples': 10, 'total_size': 10, 'shuffle': True, 'seed': 0}
+INFO 2024-07-04 10:20:47,330 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:47,330 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:47,330 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:47,331 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:47,332 ssl_dataset.py: 238: Using disk_folder labels from content/dummy_data/val
+INFO 2024-07-04 10:20:47,386 trainer_main.py: 333: Phase advanced. Rank: 0
+INFO 2024-07-04 10:20:47,387 state_update_hooks.py: 115: Starting phase 3 [test]
+INFO 2024-07-04 10:20:47,533 trainer_main.py: 214: Meters synced
+INFO 2024-07-04 10:20:47,534 log_hooks.py: 498: Rank: 0, name: test_accuracy_list_meter, value: {'top_1': {0: 50.0}, 'top_5': {0: 100.0}}
+INFO 2024-07-04 10:20:47,534 io.py:  63: Saving data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:47,535 io.py:  89: Saved data to file: content/checkpoints/metrics.json
+INFO 2024-07-04 10:20:47,629 train.py: 131: All Done!
+INFO 2024-07-04 10:20:47,630 logger.py:  73: Shutting down loggers...
+INFO 2024-07-04 10:20:47,630 distributed_launcher.py: 168: All Done!
+INFO 2024-07-04 10:20:47,630 logger.py:  73: Shutting down loggers...

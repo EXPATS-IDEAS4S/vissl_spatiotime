@@ -1,0 +1,3 @@
+{"Rank": 0, "ep": 0, "iter": 0, "lr": 0.00078, "loss": 7.115, "btime(ms)": 0, "eta": "0:00:00", "peak_mem(M)": 2595}
+{"Rank": 0, "ep": 0, "iter": 1, "lr": 0.00078, "loss": 7.88116, "btime(ms)": 9119, "eta": "0:01:22", "peak_mem(M)": 2595, "max_iterations": 10}
+{"Rank": 0, "ep": 1, "iter": 5, "lr": 8e-05, "loss": 1.07093, "btime(ms)": 1522, "eta": "0:00:07", "peak_mem(M)": 492}

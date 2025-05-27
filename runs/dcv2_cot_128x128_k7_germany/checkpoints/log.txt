@@ -1,0 +1,597 @@
+INFO 2024-11-26 12:04:38,935 train.py:  94: Env set for rank: 0, dist_rank: 0
+INFO 2024-11-26 12:04:38,935 env.py:  50: BROWSER:	/home/Daniele/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh
+INFO 2024-11-26 12:04:38,936 env.py:  50: COLORTERM:	truecolor
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_DEFAULT_ENV:	vissl
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_EXE:	/home/Daniele/miniforge3/bin/conda
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_MKL_INTERFACE_LAYER_BACKUP:	
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_PREFIX:	/home/Daniele/miniforge3/envs/vissl
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_PREFIX_1:	/home/Daniele/miniforge3
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_PROMPT_MODIFIER:	(vissl) 
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_PYTHON_EXE:	/home/Daniele/miniforge3/bin/python
+INFO 2024-11-26 12:04:38,936 env.py:  50: CONDA_SHLVL:	2
+INFO 2024-11-26 12:04:38,936 env.py:  50: CPL_VSIL_CURL_CHUNK_SIZE:	10485760
+INFO 2024-11-26 12:04:38,936 env.py:  50: GIT_ASKPASS:	/home/Daniele/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh
+INFO 2024-11-26 12:04:38,936 env.py:  50: HOME:	/home/Daniele
+INFO 2024-11-26 12:04:38,936 env.py:  50: HOST_EXTERNAL:	daniele-gpu-2
+INFO 2024-11-26 12:04:38,936 env.py:  50: HOST_INTERNAL:	container35656
+INFO 2024-11-26 12:04:38,936 env.py:  50: INSTANCE_HOSTNAME:	daniele-gpu-2
+INFO 2024-11-26 12:04:38,936 env.py:  50: IP_INTERNAL:	10.0.0.20
+INFO 2024-11-26 12:04:38,936 env.py:  50: IP_PUBLIC:	64.225.131.103
+INFO 2024-11-26 12:04:38,936 env.py:  50: LANG:	C.UTF-8
+INFO 2024-11-26 12:04:38,936 env.py:  50: LC_ALL:	C.UTF-8
+INFO 2024-11-26 12:04:38,936 env.py:  50: LD_LIBRARY_PATH:	/usr/local/cuda/compat:/usr/local/cuda/lib:/usr/local/cuda/compat:/usr/local/cuda/lib
+INFO 2024-11-26 12:04:38,936 env.py:  50: LESSCLOSE:	/usr/bin/lesspipe %s %s
+INFO 2024-11-26 12:04:38,936 env.py:  50: LESSOPEN:	| /usr/bin/lesspipe %s
+INFO 2024-11-26 12:04:38,937 env.py:  50: LOCAL_RANK:	0
+INFO 2024-11-26 12:04:38,937 env.py:  50: LOGNAME:	Daniele
+INFO 2024-11-26 12:04:38,937 env.py:  50: LS_COLORS:	rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+INFO 2024-11-26 12:04:38,937 env.py:  50: MKL_INTERFACE_LAYER:	LP64,GNU
+INFO 2024-11-26 12:04:38,937 env.py:  50: MOTD_SHOWN:	pam
+INFO 2024-11-26 12:04:38,937 env.py:  50: NCCL_DEBUG:	INFO
+INFO 2024-11-26 12:04:38,937 env.py:  50: OLDPWD:	/data1/runs
+INFO 2024-11-26 12:04:38,937 env.py:  50: PATH:	/home/Daniele/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/Daniele/miniforge3/envs/vissl/bin:/home/Daniele/miniforge3/condabin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+INFO 2024-11-26 12:04:38,937 env.py:  50: PWD:	/data1/runs/dcv2_cot_128x128_k7_germany_18kcrops
+INFO 2024-11-26 12:04:38,937 env.py:  50: RANK:	0
+INFO 2024-11-26 12:04:38,937 env.py:  50: SHELL:	/bin/bash
+INFO 2024-11-26 12:04:38,937 env.py:  50: SHLVL:	2
+INFO 2024-11-26 12:04:38,937 env.py:  50: SSH_CLIENT:	2.228.229.171 48032 22
+INFO 2024-11-26 12:04:38,937 env.py:  50: SSH_CONNECTION:	2.228.229.171 48032 10.0.0.20 22
+INFO 2024-11-26 12:04:38,937 env.py:  50: SSL_CERT_DIR:	/usr/lib/ssl/certs
+INFO 2024-11-26 12:04:38,937 env.py:  50: SSL_CERT_FILE:	/usr/lib/ssl/certs/ca-certificates.crt
+INFO 2024-11-26 12:04:38,937 env.py:  50: TERM:	xterm-256color
+INFO 2024-11-26 12:04:38,937 env.py:  50: TERM_PROGRAM:	vscode
+INFO 2024-11-26 12:04:38,937 env.py:  50: TERM_PROGRAM_VERSION:	1.94.2
+INFO 2024-11-26 12:04:38,938 env.py:  50: USER:	Daniele
+INFO 2024-11-26 12:04:38,938 env.py:  50: VSCODE_GIT_ASKPASS_EXTRA_ARGS:	
+INFO 2024-11-26 12:04:38,938 env.py:  50: VSCODE_GIT_ASKPASS_MAIN:	/home/Daniele/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js
+INFO 2024-11-26 12:04:38,938 env.py:  50: VSCODE_GIT_ASKPASS_NODE:	/home/Daniele/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node
+INFO 2024-11-26 12:04:38,938 env.py:  50: VSCODE_GIT_IPC_HANDLE:	/run/user/1002/vscode-git-ce4e5f6a8a.sock
+INFO 2024-11-26 12:04:38,938 env.py:  50: VSCODE_IPC_HOOK_CLI:	/run/user/1002/vscode-ipc-6308243f-4731-4bbe-be0d-b4b74fffcc88.sock
+INFO 2024-11-26 12:04:38,938 env.py:  50: WORLD_SIZE:	1
+INFO 2024-11-26 12:04:38,938 env.py:  50: XDG_RUNTIME_DIR:	/run/user/1002
+INFO 2024-11-26 12:04:38,938 env.py:  50: XDG_SESSION_CLASS:	user
+INFO 2024-11-26 12:04:38,938 env.py:  50: XDG_SESSION_ID:	579
+INFO 2024-11-26 12:04:38,938 env.py:  50: XDG_SESSION_TYPE:	tty
+INFO 2024-11-26 12:04:38,938 env.py:  50: _:	/home/Daniele/miniforge3/envs/vissl/bin/python
+INFO 2024-11-26 12:04:38,938 env.py:  50: _CE_CONDA:	
+INFO 2024-11-26 12:04:38,938 env.py:  50: _CE_M:	
+INFO 2024-11-26 12:04:38,938 misc.py: 161: Set start method of multiprocessing to forkserver
+INFO 2024-11-26 12:04:38,938 train.py: 105: Setting seed....
+INFO 2024-11-26 12:04:38,938 misc.py: 173: MACHINE SEED: 0
+INFO 2024-11-26 12:04:38,940 hydra_config.py: 132: Training with config:
+INFO 2024-11-26 12:04:38,948 hydra_config.py: 141: {'CHECKPOINT': {'APPEND_DISTR_RUN_ID': False,
+                'AUTO_RESUME': True,
+                'BACKEND': 'disk',
+                'CHECKPOINT_FREQUENCY': 25,
+                'CHECKPOINT_ITER_FREQUENCY': -1,
+                'DIR': '/home/Daniele/codes/vissl/runs/dcv2_cot_128x128_k7_germany/checkpoints/',
+                'LATEST_CHECKPOINT_RESUME_FILE_NUM': 1,
+                'OVERWRITE_EXISTING': True,
+                'USE_SYMLINK_CHECKPOINT_FOR_RESUME': False},
+ 'CLUSTERFIT': {'CLUSTER_BACKEND': 'faiss',
+                'DATA_LIMIT': -1,
+                'DATA_LIMIT_SAMPLING': {'SEED': 0},
+                'FEATURES': {'DATASET_NAME': '',
+                             'DATA_PARTITION': 'TRAIN',
+                             'DIMENSIONALITY_REDUCTION': 0,
+                             'EXTRACT': False,
+                             'LAYER_NAME': '',
+                             'PATH': '.',
+                             'TEST_PARTITION': 'TEST'},
+                'NUM_CLUSTERS': 16000,
+                'NUM_ITER': 50,
+                'OUTPUT_DIR': '.'},
+ 'DATA': {'DDP_BUCKET_CAP_MB': 25,
+          'ENABLE_ASYNC_GPU_COPY': True,
+          'NUM_DATALOADER_WORKERS': 12,
+          'PIN_MEMORY': True,
+          'TEST': {'BASE_DATASET': 'generic_ssl',
+                   'BATCHSIZE_PER_REPLICA': 256,
+                   'COLLATE_FUNCTION': 'default_collate',
+                   'COLLATE_FUNCTION_PARAMS': {},
+                   'COPY_DESTINATION_DIR': '',
+                   'COPY_TO_LOCAL_DISK': False,
+                   'DATASET_NAMES': ['imagenet1k_folder'],
+                   'DATA_LIMIT': -1,
+                   'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                           'SEED': 0,
+                                           'SKIP_NUM_SAMPLES': 0},
+                   'DATA_PATHS': [],
+                   'DATA_SOURCES': [],
+                   'DEFAULT_GRAY_IMG_SIZE': 224,
+                   'DROP_LAST': False,
+                   'ENABLE_QUEUE_DATASET': False,
+                   'INPUT_KEY_NAMES': ['data'],
+                   'LABEL_PATHS': [],
+                   'LABEL_SOURCES': [],
+                   'LABEL_TYPE': 'sample_index',
+                   'MMAP_MODE': True,
+                   'NEW_IMG_PATH_PREFIX': '',
+                   'RANDOM_SYNTHETIC_IMAGES': False,
+                   'REMOVE_IMG_PATH_PREFIX': '',
+                   'TARGET_KEY_NAMES': ['label'],
+                   'TRANSFORMS': [],
+                   'USE_DEBUGGING_SAMPLER': False,
+                   'USE_STATEFUL_DISTRIBUTED_SAMPLER': False},
+          'TRAIN': {'BASE_DATASET': 'generic_ssl',
+                    'BATCHSIZE_PER_REPLICA': 500,
+                    'COLLATE_FUNCTION': 'multicrop_collator',
+                    'COLLATE_FUNCTION_PARAMS': {},
+                    'COPY_DESTINATION_DIR': '/tmp/imagenet1k/',
+                    'COPY_TO_LOCAL_DISK': False,
+                    'DATASET_NAMES': ['cot_dc_2013-15_Apr-Jul'],
+                    'DATA_LIMIT': -1,
+                    'DATA_LIMIT_SAMPLING': {'IS_BALANCED': False,
+                                            'SEED': 0,
+                                            'SKIP_NUM_SAMPLES': 0},
+                    'DATA_PATHS': [],
+                    'DATA_SOURCES': ['disk_folder'],
+                    'DEFAULT_GRAY_IMG_SIZE': 224,
+                    'DROP_LAST': True,
+                    'ENABLE_QUEUE_DATASET': False,
+                    'INPUT_KEY_NAMES': ['data'],
+                    'LABEL_PATHS': [],
+                    'LABEL_SOURCES': [],
+                    'LABEL_TYPE': 'sample_index',
+                    'MMAP_MODE': True,
+                    'NEW_IMG_PATH_PREFIX': '',
+                    'RANDOM_SYNTHETIC_IMAGES': False,
+                    'REMOVE_IMG_PATH_PREFIX': '',
+                    'TARGET_KEY_NAMES': ['label'],
+                    'TRANSFORMS': [{'crop_scales': [[0.08, 1]],
+                                    'name': 'ImgPilToMultiCrop',
+                                    'num_crops': [2],
+                                    'size_crops': [96],
+                                    'total_num_crops': 2},
+                                   {'name': 'ToTensor'},
+                                   {'mean': [0.011, 0.011, 0.011],
+                                    'name': 'Normalize',
+                                    'std': [0.077, 0.077, 0.077]}],
+                    'USE_DEBUGGING_SAMPLER': False,
+                    'USE_STATEFUL_DISTRIBUTED_SAMPLER': False}},
+ 'DISTRIBUTED': {'BACKEND': 'nccl',
+                 'BROADCAST_BUFFERS': True,
+                 'INIT_METHOD': 'tcp',
+                 'MANUAL_GRADIENT_REDUCTION': False,
+                 'NCCL_DEBUG': True,
+                 'NCCL_SOCKET_NTHREADS': '',
+                 'NUM_NODES': 1,
+                 'NUM_PROC_PER_NODE': 1,
+                 'RUN_ID': 'auto'},
+ 'EXTRACT_FEATURES': {'CHUNK_THRESHOLD': 0, 'OUTPUT_DIR': ''},
+ 'HOOKS': {'CHECK_NAN': True,
+           'LOG_GPU_STATS': True,
+           'MEMORY_SUMMARY': {'DUMP_MEMORY_ON_EXCEPTION': False,
+                              'LOG_ITERATION_NUM': 0,
+                              'PRINT_MEMORY_SUMMARY': True},
+           'MODEL_COMPLEXITY': {'COMPUTE_COMPLEXITY': False,
+                                'INPUT_SHAPE': [3, 224, 224]},
+           'PERF_STATS': {'MONITOR_PERF_STATS': True,
+                          'PERF_STAT_FREQUENCY': -1,
+                          'ROLLING_BTIME_FREQ': -1},
+           'TENSORBOARD_SETUP': {'EXPERIMENT_LOG_DIR': 'tensorboard',
+                                 'FLUSH_EVERY_N_MIN': 5,
+                                 'LOG_DIR': '/home/Daniele/codes/vissl/runs/dcv2_cot_128x128_k7_germany/checkpoints/',
+                                 'LOG_PARAMS': True,
+                                 'LOG_PARAMS_EVERY_N_ITERS': -1,
+                                 'LOG_PARAMS_GRADIENTS': True,
+                                 'USE_TENSORBOARD': True}},
+ 'IMG_RETRIEVAL': {'CROP_QUERY_ROI': False,
+                   'DATASET_PATH': '',
+                   'DEBUG_MODE': False,
+                   'EVAL_BINARY_PATH': '',
+                   'EVAL_DATASET_NAME': 'Paris',
+                   'FEATS_PROCESSING_TYPE': '',
+                   'GEM_POOL_POWER': 4.0,
+                   'IMG_SCALINGS': [1],
+                   'NORMALIZE_FEATURES': True,
+                   'NUM_DATABASE_SAMPLES': -1,
+                   'NUM_QUERY_SAMPLES': -1,
+                   'NUM_TRAINING_SAMPLES': -1,
+                   'N_PCA': 512,
+                   'RESIZE_IMG': 1024,
+                   'SAVE_FEATURES': False,
+                   'SAVE_RETRIEVAL_RANKINGS_SCORES': True,
+                   'SIMILARITY_MEASURE': 'cosine_similarity',
+                   'SPATIAL_LEVELS': 3,
+                   'TRAIN_DATASET_NAME': 'Oxford',
+                   'TRAIN_PCA_WHITENING': True,
+                   'USE_DISTRACTORS': False,
+                   'WHITEN_IMG_LIST': ''},
+ 'LOG_FREQUENCY': 10,
+ 'LOSS': {'CrossEntropyLoss': {'ignore_index': -1},
+          'barlow_twins_loss': {'embedding_dim': 8192,
+                                'lambda_': 0.0051,
+                                'scale_loss': 0.024},
+          'bce_logits_multiple_output_single_target': {'normalize_output': False,
+                                                       'reduction': 'none',
+                                                       'world_size': 1},
+          'cross_entropy_multiple_output_single_target': {'ignore_index': -1,
+                                                          'normalize_output': False,
+                                                          'reduction': 'mean',
+                                                          'temperature': 1.0,
+                                                          'weight': None},
+          'deepclusterv2_loss': {'BATCHSIZE_PER_REPLICA': 500,
+                                 'DROP_LAST': True,
+                                 'kmeans_iters': 10,
+                                 'memory_params': {'crops_for_mb': [0, 1],
+                                                   'embedding_dim': 128},
+                                 'num_clusters': [7, 7, 7],
+                                 'num_crops': 2,
+                                 'num_train_samples': 54864,
+                                 'temperature': 0.1},
+          'dino_loss': {'crops_for_teacher': [0, 1],
+                        'ema_center': 0.9,
+                        'momentum': 0.996,
+                        'normalize_last_layer': True,
+                        'output_dim': 65536,
+                        'student_temp': 0.1,
+                        'teacher_temp_max': 0.07,
+                        'teacher_temp_min': 0.04,
+                        'teacher_temp_warmup_iters': 37500},
+          'moco_loss': {'embedding_dim': 128,
+                        'momentum': 0.999,
+                        'queue_size': 65536,
+                        'temperature': 0.2},
+          'multicrop_simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                               'embedding_dim': 128,
+                                                               'world_size': 64},
+                                             'num_crops': 2,
+                                             'temperature': 0.1},
+          'name': 'deepclusterv2_loss',
+          'nce_loss_with_memory': {'loss_type': 'nce',
+                                   'loss_weights': [1.0],
+                                   'memory_params': {'embedding_dim': 128,
+                                                     'memory_size': -1,
+                                                     'momentum': 0.5,
+                                                     'norm_init': True,
+                                                     'update_mem_on_forward': True},
+                                   'negative_sampling_params': {'num_negatives': 16000,
+                                                                'type': 'random'},
+                                   'norm_constant': -1,
+                                   'norm_embedding': True,
+                                   'num_train_samples': -1,
+                                   'temperature': 0.07,
+                                   'update_mem_with_emb_index': -100},
+          'simclr_info_nce_loss': {'buffer_params': {'effective_batch_size': 4096,
+                                                     'embedding_dim': 128,
+                                                     'world_size': 64},
+                                   'temperature': 0.1},
+          'swav_loss': {'crops_for_assign': [0, 1],
+                        'embedding_dim': 128,
+                        'epsilon': 0.05,
+                        'normalize_last_layer': True,
+                        'num_crops': 2,
+                        'num_iters': 3,
+                        'num_prototypes': [3000],
+                        'output_dir': '.',
+                        'queue': {'local_queue_length': 0,
+                                  'queue_length': 0,
+                                  'start_iter': 0},
+                        'temp_hard_assignment_iters': 0,
+                        'temperature': 0.1,
+                        'use_double_precision': False},
+          'swav_momentum_loss': {'crops_for_assign': [0, 1],
+                                 'embedding_dim': 128,
+                                 'epsilon': 0.05,
+                                 'momentum': 0.99,
+                                 'momentum_eval_mode_iter_start': 0,
+                                 'normalize_last_layer': True,
+                                 'num_crops': 2,
+                                 'num_iters': 3,
+                                 'num_prototypes': [3000],
+                                 'queue': {'local_queue_length': 0,
+                                           'queue_length': 0,
+                                           'start_iter': 0},
+                                 'temperature': 0.1,
+                                 'use_double_precision': False}},
+ 'MACHINE': {'DEVICE': 'gpu'},
+ 'METERS': {'accuracy_list_meter': {'meter_names': [],
+                                    'num_meters': 1,
+                                    'topk_values': [1]},
+            'enable_training_meter': True,
+            'mean_ap_list_meter': {'max_cpu_capacity': -1,
+                                   'meter_names': [],
+                                   'num_classes': 9605,
+                                   'num_meters': 1},
+            'model_output_mask': False,
+            'name': '',
+            'names': [],
+            'precision_at_k_list_meter': {'meter_names': [],
+                                          'num_meters': 1,
+                                          'topk_values': [1]},
+            'recall_at_k_list_meter': {'meter_names': [],
+                                       'num_meters': 1,
+                                       'topk_values': [1]}},
+ 'MODEL': {'ACTIVATION_CHECKPOINTING': {'NUM_ACTIVATION_CHECKPOINTING_SPLITS': 2,
+                                        'USE_ACTIVATION_CHECKPOINTING': False},
+           'AMP_PARAMS': {'AMP_ARGS': {'opt_level': 'O1'},
+                          'AMP_TYPE': 'apex',
+                          'USE_AMP': True},
+           'BASE_MODEL_NAME': 'multi_input_output_model',
+           'CUDA_CACHE': {'CLEAR_CUDA_CACHE': False, 'CLEAR_FREQ': 100},
+           'FEATURE_EVAL_SETTINGS': {'EVAL_MODE_ON': False,
+                                     'EVAL_TRUNK_AND_HEAD': False,
+                                     'EXTRACT_TRUNK_FEATURES_ONLY': False,
+                                     'FREEZE_TRUNK_AND_HEAD': False,
+                                     'FREEZE_TRUNK_ONLY': False,
+                                     'LINEAR_EVAL_FEAT_POOL_OPS_MAP': [],
+                                     'SHOULD_FLATTEN_FEATS': True},
+           'FSDP_CONFIG': {'AUTO_WRAP_THRESHOLD': 0,
+                           'bucket_cap_mb': 0,
+                           'clear_autocast_cache': True,
+                           'compute_dtype': torch.float32,
+                           'flatten_parameters': True,
+                           'fp32_reduce_scatter': False,
+                           'mixed_precision': True,
+                           'verbose': True},
+           'GRAD_CLIP': {'MAX_NORM': 1, 'NORM_TYPE': 2, 'USE_GRAD_CLIP': False},
+           'HEAD': {'BATCHNORM_EPS': 1e-05,
+                    'BATCHNORM_MOMENTUM': 0.1,
+                    'PARAMS': [['mlp',
+                                {'dims': [2048, 2048],
+                                 'skip_last_layer_relu_bn': False,
+                                 'use_relu': True}],
+                               ['mlp', {'dims': [2048, 128]}]],
+                    'PARAMS_MULTIPLIER': 1.0},
+           'INPUT_TYPE': 'rgb',
+           'MULTI_INPUT_HEAD_MAPPING': [],
+           'NON_TRAINABLE_PARAMS': [],
+           'SHARDED_DDP_SETUP': {'USE_SDP': False, 'reduce_buffer_size': -1},
+           'SINGLE_PASS_EVERY_CROP': False,
+           'SYNC_BN_CONFIG': {'CONVERT_BN_TO_SYNC_BN': True,
+                              'GROUP_SIZE': 8,
+                              'SYNC_BN_TYPE': 'apex'},
+           'TEMP_FROZEN_PARAMS_ITER_MAP': [],
+           'TRUNK': {'CONVIT': {'CLASS_TOKEN_IN_LOCAL_LAYERS': False,
+                                'LOCALITY_DIM': 10,
+                                'LOCALITY_STRENGTH': 1.0,
+                                'N_GPSA_LAYERS': 10,
+                                'USE_LOCAL_INIT': True},
+                     'EFFICIENT_NETS': {},
+                     'NAME': 'resnet',
+                     'REGNET': {},
+                     'RESNETS': {'DEPTH': 50,
+                                 'GROUPNORM_GROUPS': 32,
+                                 'GROUPS': 1,
+                                 'LAYER4_STRIDE': 2,
+                                 'NORM': 'BatchNorm',
+                                 'STANDARDIZE_CONVOLUTIONS': False,
+                                 'WIDTH_MULTIPLIER': 1,
+                                 'WIDTH_PER_GROUP': 64,
+                                 'ZERO_INIT_RESIDUAL': False},
+                     'VISION_TRANSFORMERS': {'ATTENTION_DROPOUT_RATE': 0,
+                                             'CLASSIFIER': 'token',
+                                             'DROPOUT_RATE': 0,
+                                             'DROP_PATH_RATE': 0,
+                                             'HIDDEN_DIM': 768,
+                                             'IMAGE_SIZE': 224,
+                                             'MLP_DIM': 3072,
+                                             'NUM_HEADS': 12,
+                                             'NUM_LAYERS': 12,
+                                             'PATCH_SIZE': 16,
+                                             'QKV_BIAS': False,
+                                             'QK_SCALE': False,
+                                             'name': None},
+                     'XCIT': {'ATTENTION_DROPOUT_RATE': 0,
+                              'DROPOUT_RATE': 0,
+                              'DROP_PATH_RATE': 0.05,
+                              'ETA': 1,
+                              'HIDDEN_DIM': 384,
+                              'IMAGE_SIZE': 224,
+                              'NUM_HEADS': 8,
+                              'NUM_LAYERS': 12,
+                              'PATCH_SIZE': 16,
+                              'QKV_BIAS': True,
+                              'QK_SCALE': False,
+                              'TOKENS_NORM': True,
+                              'name': None}},
+           'WEIGHTS_INIT': {'APPEND_PREFIX': '',
+                            'PARAMS_FILE': '',
+                            'REMOVE_PREFIX': '',
+                            'SKIP_LAYERS': ['num_batches_tracked'],
+                            'STATE_DICT_KEY_NAME': 'classy_state_dict'},
+           '_MODEL_INIT_SEED': 0},
+ 'MONITORING': {'MONITOR_ACTIVATION_STATISTICS': 0},
+ 'MULTI_PROCESSING_METHOD': 'forkserver',
+ 'NEAREST_NEIGHBOR': {'L2_NORM_FEATS': False, 'SIGMA': 0.1, 'TOPK': 200},
+ 'OPTIMIZER': {'betas': [0.9, 0.999],
+               'construct_single_param_group_only': False,
+               'head_optimizer_params': {'use_different_lr': False,
+                                         'use_different_wd': False,
+                                         'weight_decay': 1e-06},
+               'larc_config': {'clip': False,
+                               'eps': 1e-08,
+                               'trust_coefficient': 0.001},
+               'momentum': 0.9,
+               'name': 'sgd',
+               'nesterov': False,
+               'non_regularized_parameters': [],
+               'num_epochs': 800,
+               'param_schedulers': {'lr': {'auto_lr_scaling': {'auto_scale': True,
+                                                               'base_lr_batch_size': 256,
+                                                               'base_value': 0.3,
+                                                               'scaling_type': 'linear'},
+                                           'end_value': 0.0,
+                                           'interval_scaling': ['rescaled',
+                                                                'fixed'],
+                                           'lengths': [0.0125, 0.9875],
+                                           'milestones': [30, 60],
+                                           'name': 'cosine',
+                                           'schedulers': [{'end_value': 0.0,
+                                                           'name': 'cosine',
+                                                           'start_value': 0.5859375}],
+                                           'start_value': 0.5859375,
+                                           'update_interval': 'step',
+                                           'value': 0.1,
+                                           'values': [0.1, 0.01, 0.001]},
+                                    'lr_head': {'auto_lr_scaling': {'auto_scale': True,
+                                                                    'base_lr_batch_size': 256,
+                                                                    'base_value': 0.3,
+                                                                    'scaling_type': 'linear'},
+                                                'end_value': 0.0,
+                                                'interval_scaling': ['rescaled',
+                                                                     'fixed'],
+                                                'lengths': [0.0125, 0.9875],
+                                                'milestones': [30, 60],
+                                                'name': 'cosine',
+                                                'schedulers': [{'end_value': 0.0,
+                                                                'name': 'cosine',
+                                                                'start_value': 0.5859375}],
+                                                'start_value': 0.5859375,
+                                                'update_interval': 'step',
+                                                'value': 0.1,
+                                                'values': [0.1, 0.01, 0.001]}},
+               'regularize_bias': True,
+               'regularize_bn': True,
+               'use_larc': True,
+               'use_zero': False,
+               'weight_decay': 1e-06},
+ 'PROFILING': {'MEMORY_PROFILING': {'TRACK_BY_LAYER_MEMORY': False},
+               'NUM_ITERATIONS': 10,
+               'OUTPUT_FOLDER': '.',
+               'PROFILED_RANKS': [0, 1],
+               'RUNTIME_PROFILING': {'LEGACY_PROFILER': False,
+                                     'PROFILE_CPU': True,
+                                     'PROFILE_GPU': True,
+                                     'USE_PROFILER': False},
+               'START_ITERATION': 0,
+               'STOP_TRAINING_AFTER_PROFILING': False,
+               'WARMUP_ITERATIONS': 0},
+ 'REPRODUCIBILITY': {'CUDDN_DETERMINISTIC': False},
+ 'SEED_VALUE': 0,
+ 'SLURM': {'ADDITIONAL_PARAMETERS': {},
+           'COMMENT': 'vissl job',
+           'CONSTRAINT': '',
+           'LOG_FOLDER': '.',
+           'MEM_GB': 250,
+           'NAME': 'vissl',
+           'NUM_CPU_PER_PROC': 8,
+           'PARTITION': '',
+           'PORT_ID': 40050,
+           'TIME_HOURS': 72,
+           'TIME_MINUTES': 0,
+           'USE_SLURM': False},
+ 'SVM': {'cls_list': [],
+         'costs': {'base': -1.0,
+                   'costs_list': [0.1, 0.01],
+                   'power_range': [4, 20]},
+         'cross_val_folds': 3,
+         'dual': True,
+         'force_retrain': False,
+         'loss': 'squared_hinge',
+         'low_shot': {'dataset_name': 'voc',
+                      'k_values': [1, 2, 4, 8, 16, 32, 64, 96],
+                      'sample_inds': [1, 2, 3, 4, 5]},
+         'max_iter': 2000,
+         'normalize': True,
+         'penalty': 'l2'},
+ 'TEST_EVERY_NUM_EPOCH': 1,
+ 'TEST_MODEL': False,
+ 'TEST_ONLY': False,
+ 'TRAINER': {'TASK_NAME': 'self_supervision_task',
+             'TRAIN_STEP_NAME': 'standard_train_step'},
+ 'VERBOSE': True}
+INFO 2024-11-26 12:04:39,595 train.py: 117: System config:
+-------------------  ----------------------------------------------------------------------------------------
+sys.platform         linux
+Python               3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35) [GCC 12.3.0]
+numpy                1.24.4
+Pillow               9.4.0
+vissl                0.1.6 @/home/Daniele/codes/vissl/tutorials/vissl/vissl
+GPU available        True
+GPU 0                NVIDIA RTXA6000-48Q
+CUDA_HOME            /usr/local/cuda
+torchvision          0.9.1+cu111 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torchvision
+hydra                1.0.7 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/hydra
+classy_vision        0.7.0.dev @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/classy_vision
+tensorboard          2.17.0
+apex                 0.1 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/apex
+cv2                  4.10.0
+PyTorch              1.8.1+cu111 @/home/Daniele/miniforge3/envs/vissl/lib/python3.8/site-packages/torch
+PyTorch debug build  False
+-------------------  ----------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.7.0 (Git Hash 7aed236906b1f7a05c0917e5257a1af05e9ff683)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.1
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86
+  - CuDNN 8.0.5
+  - Magma 2.5.2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.1, CUDNN_VERSION=8.0.5, CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/c++, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.8.1, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+CPU info:
+----------------------------------  -----------------------------------------------------------------------------------------------
+Architecture                        x86_64
+CPU op-mode(s)                      32-bit, 64-bit
+Address sizes                       40 bits physical, 48 bits virtual
+Byte Order                          Little Endian
+CPU(s)                              16
+On-line CPU(s) list                 0-15
+Vendor ID                           AuthenticAMD
+Model name                          AMD EPYC Processor
+CPU family                          23
+Model                               1
+Thread(s) per core                  2
+Core(s) per socket                  8
+Socket(s)                           1
+Stepping                            2
+BogoMIPS                            4600.00
+Virtualization                      AMD-V
+Hypervisor vendor                   KVM
+Virtualization type                 full
+L1d cache                           256 KiB (8 instances)
+L1i cache                           512 KiB (8 instances)
+L2 cache                            4 MiB (8 instances)
+L3 cache                            16 MiB (2 instances)
+NUMA node(s)                        2
+NUMA node0 CPU(s)                   0-7
+NUMA node1 CPU(s)                   8-15
+Vulnerability Gather data sampling  Not affected
+Vulnerability Itlb multihit         Not affected
+Vulnerability L1tf                  Not affected
+Vulnerability Mds                   Not affected
+Vulnerability Meltdown              Not affected
+Vulnerability Mmio stale data       Not affected
+Vulnerability Retbleed              Mitigation; untrained return thunk; SMT vulnerable
+Vulnerability Spec rstack overflow  Mitigation; safe RET, no microcode
+Vulnerability Spec store bypass     Vulnerable
+Vulnerability Spectre v1            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2            Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds                 Not affected
+Vulnerability Tsx async abort       Not affected
+----------------------------------  -----------------------------------------------------------------------------------------------
+INFO 2024-11-26 12:04:39,595 tensorboard.py:  49: Tensorboard dir: /home/Daniele/codes/vissl/runs/dcv2_cot_128x128_k7_germany/checkpoints//tb_logs
+INFO 2024-11-26 12:04:39,611 tensorboard_hook.py:  90: Setting up SSL Tensorboard Hook...
+INFO 2024-11-26 12:04:39,611 tensorboard_hook.py: 102: Tensorboard config: log_params: True, log_params_freq: -1, log_params_gradients: True, log_activation_statistics: 0
+INFO 2024-11-26 12:04:39,612 trainer_main.py: 112: Using Distributed init method: tcp://localhost:38663, world_size: 1, rank: 0
+INFO 2024-11-26 12:04:39,613 distributed_c10d.py: 187: Added key: store_based_barrier_key:1 to store for rank: 0
+INFO 2024-11-26 12:04:39,613 trainer_main.py: 130: | initialized host daniele-gpu-2.de.dwd.expats.ewc as rank 0 (0)
+INFO 2024-11-26 12:04:43,603 train_task.py: 190: Setting AMP: using apex, args {'opt_level': 'O1'}
+INFO 2024-11-26 12:04:43,603 train_task.py: 177: Setting AMP: AmpType.APEX - args: {'opt_level': 'O1'}
+INFO 2024-11-26 12:04:43,605 train_task.py: 455: Building model....
+INFO 2024-11-26 12:04:43,605 resnext.py:  64: ResNeXT trunk, supports activation checkpointing. Deactivated
+INFO 2024-11-26 12:04:43,605 resnext.py:  87: Building model: ResNeXt50-1x64d-w1-BatchNorm2d
+INFO 2024-11-26 12:04:44,151 model_helpers.py: 177: Using SyncBN group size: 1
+INFO 2024-11-26 12:04:44,151 model_helpers.py: 181: Converting BN layers to Apex SyncBN
+INFO 2024-11-26 12:04:44,151 distributed_c10d.py: 187: Added key: store_based_barrier_key:2 to store for rank: 0
+INFO 2024-11-26 12:04:44,159 train_task.py: 656: Broadcast model BN buffers from primary on every forward pass
+INFO 2024-11-26 12:04:44,159 classification_task.py: 387: Synchronized Batch Normalization is disabled
+INFO 2024-11-26 12:04:44,189 optimizer_helper.py: 293: 
+Trainable params: 163, 
+Non-Trainable params: 0, 
+Trunk Regularized Parameters: 159, 
+Trunk Unregularized Parameters 0, 
+Head Regularized Parameters: 4, 
+Head Unregularized Parameters: 0 
+Remaining Regularized Parameters: 0 
+Remaining Unregularized Parameters: 0
+INFO 2024-11-26 12:04:44,195 ssl_dataset.py: 156: Rank: 0 split: TRAIN Data files:
+['/home/Daniele/data/all_128_germany']
+INFO 2024-11-26 12:04:44,195 ssl_dataset.py: 159: Rank: 0 split: TRAIN Label files:
+[]

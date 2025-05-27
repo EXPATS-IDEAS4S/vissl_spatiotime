@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vissl
+Version: 0.1.6
+Summary: VISSL is an extensible, modular and scalable library for SOTA Self-Supervised Learning with images.
+Home-page: https://github.com/facebookresearch/vissl
+Author: Facebook AI Research
+Author-email: vissl@fb.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.2
+Provides-Extra: dev
+License-File: LICENSE
+License-File: NOTICE
+
+UNKNOWN
+

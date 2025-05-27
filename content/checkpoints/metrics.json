@@ -1,0 +1,4 @@
+{"iteration": 5, "phase_idx": 0, "train_accuracy_list_meter": {"top_1": {"0": 20.0}, "top_5": {"0": 60.0}}, "train_phase_idx": 0}
+{"iteration": 5, "phase_idx": 1, "test_accuracy_list_meter": {"top_1": {"0": 50.0}, "top_5": {"0": 100.0}}, "train_phase_idx": 0}
+{"iteration": 10, "phase_idx": 2, "train_accuracy_list_meter": {"top_1": {"0": 60.0}, "top_5": {"0": 100.0}}, "train_phase_idx": 1}
+{"iteration": 10, "phase_idx": 3, "test_accuracy_list_meter": {"top_1": {"0": 50.0}, "top_5": {"0": 100.0}}, "train_phase_idx": 1}
