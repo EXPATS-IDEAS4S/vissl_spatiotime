@@ -625,6 +625,18 @@ config:
         # use this so we set the default as 2.
         LAYER4_STRIDE: 2
 
+      NAME: "r2plus1d"
+      # ------------------------------------------------------------- #
+      # R2plus1D params
+      # ------------------------------------------------------------- #
+      R2PLUS1D:
+        R2PLUS1D: 
+          DEPTH": 50
+          WIDTH_MULTIPLIER": 1
+          KERNEL_T_SIZE": 3
+          KERNEL_S_SIZE": 7
+          STANDARDIZE_CONVOLUTIONS": False
+
       # ------------------------------------------------------------- #
       # EfficientNet params
       # ------------------------------------------------------------- #
