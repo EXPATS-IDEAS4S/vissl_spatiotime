@@ -5,14 +5,15 @@
 
 ###### code adapted from https://github.com/kenshohara/3d-resnets-pytorch/blob/master/models/resnet2p1d.py/
 
+# %%
 import logging
 from enum import Enum
 from typing import List
-
+import sys
 import torch
 import torch.nn as nn
-import torchvision.models as models
-from torchvision.models.resnet import Bottleneck
+# import torchvision.models as models
+# from torchvision.models.resnet import Bottleneck
 from vissl.config import AttrDict
 from vissl.data.collators.collator_helper import MultiDimensionalTensor
 from vissl.models.model_helpers import (
@@ -25,32 +26,6 @@ from vissl.models.model_helpers import (
 from vissl.models.trunks import register_model_trunk
 
 
-# For more depths, add the block config here
-BLOCK_CONFIG = {
-    50: (3, 4, 6, 3),
-    101: (3, 4, 23, 3),
-    152: (3, 8, 36, 3),
-    200: (3, 24, 36, 3),
-}
-
-
-class SUPPORTED_DEPTHS(int, Enum):
-    RN50 = 50
-    RN101 = 101
-    RN152 = 152
-    RN200 = 200
-
-
-class INPUT_CHANNEL(int, Enum):
-    lab = 1
-    bgr = 3
-    rgb = 3
-
-
-class SUPPORTED_L4_STRIDE(int, Enum):
-    one = 1
-    two = 2
-
 import math
 from functools import partial
 
@@ -62,7 +37,6 @@ import torch.nn.functional as F
 def get_inplanes():
     return [64, 128, 256, 512]
 
-
 def conv1x3x3(in_planes, mid_planes, stride=1):
     return nn.Conv3d(in_planes,
                      mid_planes,
@@ -70,7 +44,6 @@ def conv1x3x3(in_planes, mid_planes, stride=1):
                      stride=(1, stride, stride),
                      padding=(0, 1, 1),
                      bias=False)
-
 
 def conv3x1x1(mid_planes, planes, stride=1):
     return nn.Conv3d(mid_planes,
@@ -80,7 +53,6 @@ def conv3x1x1(mid_planes, planes, stride=1):
                      padding=(1, 0, 0),
                      bias=False)
 
-
 def conv1x1x1(in_planes, out_planes, stride=1):
     return nn.Conv3d(in_planes,
                      out_planes,
@@ -88,8 +60,7 @@ def conv1x1x1(in_planes, out_planes, stride=1):
                      stride=stride,
                      bias=False)
 
-
-class BasicBlock(nn.Module):
+class BasicBlock2plus1D(nn.Module):
     expansion = 1
 
     def __init__(self, in_planes, planes, stride=1, downsample=None):
@@ -139,8 +110,7 @@ class BasicBlock(nn.Module):
 
         return out
 
-
-class Bottleneck(nn.Module):
+class Bottleneck2plus1D(nn.Module):
     expansion = 4
 
     def __init__(self, in_planes, planes, stride=1, downsample=None):
@@ -187,16 +157,46 @@ class Bottleneck(nn.Module):
         out = self.relu(out)
 
         return out
+    
+
+BLOCK_CONFIG = {
+    10: {"layer": (1, 1, 1, 1), "block": BasicBlock2plus1D},
+    18: {"layer": (2, 2, 2, 2), "block": BasicBlock2plus1D},
+    34: {"layer": (3, 4, 6, 3), "block": BasicBlock2plus1D},
+    50: {"layer": (3, 4, 6, 3), "block": Bottleneck2plus1D},
+    101: {"layer": (3, 4, 23, 3), "block": Bottleneck2plus1D},
+    152: {"layer": (3, 8, 36, 3), "block": Bottleneck2plus1D},
+    200: {"layer": (3, 24, 36, 3), "block": Bottleneck2plus1D},
+}
 
 
-class ResNet(nn.Module):
+class SUPPORTED_DEPTHS(int, Enum):
+    RN50 = 50
+    RN101 = 101
+    RN152 = 152
+    RN200 = 200
+
+
+class INPUT_CHANNEL(int, Enum):
+    lab = 1
+    bgr = 3
+    rgb = 3
+
+
+class SUPPORTED_L4_STRIDE(int, Enum):
+    one = 1
+    two = 2
+
+class ResNet2plus1D(nn.Module):
 
     def __init__(self,
                  block,
                  layers,
                  block_inplanes,
                  n_input_channels=3,
-                 conv1_t_size=7,
+                 conv1_s_size=7,
+                 conv1_s_stride=2,
+                 conv1_t_size=3,
                  conv1_t_stride=1,
                  no_max_pool=False,
                  shortcut_type='B',
@@ -214,9 +214,9 @@ class ResNet(nn.Module):
         mid_planes = n_3d_parameters // n_2p1d_parameters
         self.conv1_s = nn.Conv3d(n_input_channels,
                                  mid_planes,
-                                 kernel_size=(1, 7, 7),
-                                 stride=(1, 2, 2),
-                                 padding=(0, 3, 3),
+                                 kernel_size=(1, conv1_s_size, conv1_s_size),
+                                 stride=(1, 2, conv1_s_stride),
+                                 padding=(0, conv1_s_size // 2, conv1_s_size // 2),
                                  bias=False)
         self.bn1_s = nn.BatchNorm3d(mid_planes)
         self.conv1_t = nn.Conv3d(mid_planes,
@@ -318,37 +318,17 @@ class ResNet(nn.Module):
         return x
 
 
-def generate_model(model_depth, **kwargs):
-    assert model_depth in [10, 18, 34, 50, 101, 152, 200]
 
-    if model_depth == 10:
-        model = ResNet(BasicBlock, [1, 1, 1, 1], get_inplanes(), **kwargs)
-    elif model_depth == 18:
-        model = ResNet(BasicBlock, [2, 2, 2, 2], get_inplanes(), **kwargs)
-    elif model_depth == 34:
-        model = ResNet(BasicBlock, [3, 4, 6, 3], get_inplanes(), **kwargs)
-    elif model_depth == 50:
-        model = ResNet(Bottleneck, [3, 4, 6, 3], get_inplanes(), **kwargs)
-    elif model_depth == 101:
-        model = ResNet(Bottleneck, [3, 4, 23, 3], get_inplanes(), **kwargs)
-    elif model_depth == 152:
-        model = ResNet(Bottleneck, [3, 8, 36, 3], get_inplanes(), **kwargs)
-    elif model_depth == 200:
-        model = ResNet(Bottleneck, [3, 24, 36, 3], get_inplanes(), **kwargs)
-
-    return model
-
-
-@register_model_trunk("resnet")
-class ResNeXt(nn.Module):
+@register_model_trunk("r2plus1d")
+class R2plus1D(nn.Module):
     """
-    Wrapper for TorchVison ResNet Model to support different depth and
+    Wrapper for above defined ResNet 2plus1D Model to support different depth and
     width_multiplier. We provide flexibility with LAB input, stride in last
     ResNet block and type of norm (BatchNorm, LayerNorm)
     """
 
     def __init__(self, model_config: AttrDict, model_name: str):
-        super(ResNeXt, self).__init__()
+        super(R2plus1D, self).__init__()
         self.model_config = model_config
         logging.info(
             "ResNeXT trunk, supports activation checkpointing. {}".format(
@@ -358,66 +338,41 @@ class ResNeXt(nn.Module):
             )
         )
 
-        self.trunk_config = self.model_config.TRUNK.RESNETS
+        self.input_channels = INPUT_CHANNEL[self.model_config.INPUT_TYPE]
+        self.trunk_config = self.model_config.TRUNK.R2PLUS1D
         self.depth = SUPPORTED_DEPTHS(self.trunk_config.DEPTH)
         self.width_multiplier = self.trunk_config.WIDTH_MULTIPLIER
-        self._norm_layer = _get_norm(self.trunk_config)
-        self.groups = self.trunk_config.GROUPS
-        self.zero_init_residual = self.trunk_config.ZERO_INIT_RESIDUAL
-        self.width_per_group = self.trunk_config.WIDTH_PER_GROUP
         self.use_checkpointing = (
             self.model_config.ACTIVATION_CHECKPOINTING.USE_ACTIVATION_CHECKPOINTING
         )
         self.num_checkpointing_splits = (
             self.model_config.ACTIVATION_CHECKPOINTING.NUM_ACTIVATION_CHECKPOINTING_SPLITS
         )
+        self.kernel_t_size = self.trunk_config.KERNEL_T_SIZE
+        self.kernel_s_size = self.trunk_config.KERNEL_S_SIZE
 
-        (n1, n2, n3, n4) = BLOCK_CONFIG[self.depth]
+        (n1, n2, n3, n4) = BLOCK_CONFIG[self.depth]["layer"]
+        block = BLOCK_CONFIG[self.depth]["block"]
         logging.info(
-            f"Building model: ResNeXt"
-            f"{self.depth}-{self.groups}x{self.width_per_group}d-"
-            f"w{self.width_multiplier}-{self._norm_layer.__name__}"
+            f"Building model: ResNet 2plus1D"
+            f"depth {self.depth}"
+            # f"w{self.width_multiplier}-{self._norm_layer.__name__}"
         )
+        # get input channels from config
 
-        model = models.resnet.ResNet(
-            block=Bottleneck,
+        model = ResNet2plus1D(
+            block=block,
             layers=(n1, n2, n3, n4),
-            zero_init_residual=self.zero_init_residual,
-            groups=self.groups,
-            width_per_group=self.width_per_group,
-            norm_layer=self._norm_layer,
-        )
-
-        model.inplanes = 64 * self.width_multiplier
-        dim_inner = 64 * self.width_multiplier
-        # some tasks like Colorization https://arxiv.org/abs/1603.08511 take input
-        # as L channel of an LAB image. In that case we change the input channel
-        # and re-construct the conv1
-        self.input_channels = INPUT_CHANNEL[self.model_config.INPUT_TYPE]
-
-        model_conv1 = nn.Conv2d(
-            self.input_channels,
-            model.inplanes,
-            kernel_size=7,
-            stride=2,
-            padding=3,
-            bias=False,
-        )
-        model_bn1 = self._norm_layer(model.inplanes)
-        model_relu1 = model.relu
-        model_maxpool = model.maxpool
-        model_avgpool = model.avgpool
-        model_layer1 = model._make_layer(Bottleneck, dim_inner, n1)
-        model_layer2 = model._make_layer(Bottleneck, dim_inner * 2, n2, stride=2)
-        model_layer3 = model._make_layer(Bottleneck, dim_inner * 4, n3, stride=2)
-
-        # For some models like Colorization https://arxiv.org/abs/1603.08511,
-        # due to the higher spatial resolution desired for pixel wise task, we
-        # support using a different stride. Currently, we know stride=1 and stride=2
-        # behavior so support only those.
-        safe_stride = SUPPORTED_L4_STRIDE(self.trunk_config.LAYER4_STRIDE)
-        model_layer4 = model._make_layer(
-            Bottleneck, dim_inner * 8, n4, stride=safe_stride
+            block_inplanes=get_inplanes(),
+            n_input_channels=self.input_channels.value,  # Assuming RGB input
+            conv1_s_size=self.kernel_s_size,
+            conv1_s_stride=2,
+            conv1_t_size=self.kernel_t_size,
+            conv1_t_stride=2,
+            no_max_pool=False,
+            shortcut_type='B',  # Assuming 'B' for bottleneck
+            widen_factor=self.width_multiplier,
+            n_classes=1000  # Assuming 1000 classes for ImageNet
         )
 
         # we mapped the layers of resnet model into feature blocks to facilitate
@@ -426,15 +381,17 @@ class ResNeXt(nn.Module):
         # forward() call.
         self._feature_blocks = nn.ModuleDict(
             [
-                ("conv1", model_conv1),
-                ("bn1", model_bn1),
-                ("conv1_relu", model_relu1),
-                ("maxpool", model_maxpool),
-                ("layer1", model_layer1),
-                ("layer2", model_layer2),
-                ("layer3", model_layer3),
-                ("layer4", model_layer4),
-                ("avgpool", model_avgpool),
+                ("conv1_s", model.conv1_s),
+                ("bn1_s", model.bn1_s),
+                ("conv1_t", model.conv1_t),
+                ("bn1_t", model.bn1_t),
+                ("conv1_relu", model.relu),
+                ("maxpool", model.maxpool),
+                ("layer1", model.layer1),
+                ("layer2", model.layer2),
+                ("layer3", model.layer3),
+                ("layer4", model.layer4),
+                ("avgpool", model.avgpool),
                 ("flatten", Flatten(1)),
             ]
         )
@@ -479,3 +436,37 @@ class ResNeXt(nn.Module):
                 checkpointing_splits=self.num_checkpointing_splits,
             )
         return out
+
+
+# # %%
+# if __name__ == "__main__":
+#     # Example usage
+#     model_config = AttrDict({
+#         "TRUNK": {
+#             "R2PLUS1D": {
+#                 "DEPTH": 50,
+#                 "WIDTH_MULTIPLIER": 1.0,
+#                 "KERNEL_T_SIZE": 3,
+#                 "KERNEL_S_SIZE": 7,
+#                 "STANDARDIZE_CONVOLUTIONS": False,
+#             }
+#         },
+#         "INPUT_TYPE": "rgb",
+#         "ACTIVATION_CHECKPOINTING": {
+#             "USE_ACTIVATION_CHECKPOINTING": False,
+#             "NUM_ACTIVATION_CHECKPOINTING_SPLITS": 1
+#         }
+#     })
+#     model_name = "r2plus1d50"
+#     model = R2plus1D(model_config, model_name)
+#     # for feature_block_name, feature_block in model._feature_blocks.items():
+#     #     print(f"{feature_block_name}: {feature_block}")
+#     #     print("layer shape:", feature_block)
+
+#     # Create a dummy input tensor
+#     input_tensor = torch.randn(1, 1, 8, 100, 100)  # Batch size of 1, RGB image
+#     # Forward pass
+#     # output = model(input_tensor, out_feat_keys=["res5"])
+#     # print("Output shape:", output.shape)  # Should be [1, 1000] for ImageNet
+
+# %%
